@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GCNavigationController.h
 //  GCMUMU
 //
 //  Created by 郭存 on 15/12/9.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface GCNavigationController : UINavigationController
 
 @end
-
