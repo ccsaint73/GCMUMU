@@ -7,6 +7,7 @@
 //
 
 #import "GCSessionController.h"
+#import "GCQrCodeController.h"
 
 @interface GCSessionController ()
 
@@ -17,21 +18,32 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self setupNav];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setupNav
+{
+    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Nav_qrcode"] style:UIBarButtonItemStyleDone target:self action:@selector(leftItemDidSelected)];
+    leftItem.tintColor = [UIColor whiteColor];
+    self.navigationItem.leftBarButtonItem = leftItem;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)leftItemDidSelected
+{
+    GCQrCodeController *qrCode = [[GCQrCodeController alloc] init];
+    qrCode.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:qrCode animated:YES];
 }
-*/
 
 @end
+
+
+
+
+
+
+
+
+
+
+

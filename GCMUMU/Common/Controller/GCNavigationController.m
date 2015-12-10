@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"group_remind_bg"] forBarMetrics:UIBarMetricsDefault];
+    self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor whiteColor]};
 }
 
 - (void)didReceiveMemoryWarning {

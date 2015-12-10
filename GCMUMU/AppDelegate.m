@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "GCTabBarController.h"
+#import "GCSlidingMenuController.h"
 
 @interface AppDelegate ()
 
@@ -23,6 +24,14 @@
     
     // 2.创建tabbar
     GCTabBarController *tabBar = [[GCTabBarController alloc] init];
+    
+    // 5.引入侧滑框架
+//    GCSlidingMenuController *slider = [[GCSlidingMenuController alloc] init];
+//    slider.mainVC = tabBar;
+//    
+//    UIViewController *leftVC = [[UIViewController alloc] init];
+//    leftVC.view.backgroundColor = [UIColor redColor];
+//    slider.leftVC = leftVC;
     
     // 3.设置window的跟控制器
     self.window.rootViewController = tabBar;
