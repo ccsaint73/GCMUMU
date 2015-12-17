@@ -7,217 +7,280 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E0EFD308A39DA6783F9004C5689973 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1713FFD0C4F75F7B31561CE27F430577 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F8217A7033D4B1169408CA2DEBFA592 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C31A9B26388001B26382C7C355DA572 /* Foundation.framework */; };
-		1CBDB47B210A0C2448C14A610BC6D4D6 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EEEF5A2B4C170D96FE36410803CEFD /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E310D0CE3BE27EF253B6D822B0AEE5E /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B07DBB7E6398123B496C04CCBC41E9 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		211D4EA06F5920376A069ACB55DF6006 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF8A91B1A4E67B42F34DF8DF51C060F /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		283165E02916D714A49EFABF3A9280A0 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
-		2B8269A87473D9F1259E9BD98E7588D3 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 741204A1355AF6F7DAC9453C20895034 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CF66E8669A348C421E93F2F67C6A61E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA14E959C2CD4E2D736B3E5B0EE84D0 /* AFHTTPSessionManager.m */; };
-		3033C63AC334D346E9461D0942D8FB69 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AD8B514FD48D14007919C467E74D8C /* AFURLRequestSerialization.m */; };
-		399AC825EE10F70364CE7B0AA89F466D /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 33F9792890BBBFFF0DB434ACC416C719 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A5B54373A45916EC8DE74D060DE5503 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F57CFF08A4C0546F67A31B941906AF /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		472A6BFCC6207D98F787649BDF44A1BE /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FEF86DC534E0DBBE4896D175D25578 /* AFHTTPRequestOperationManager.m */; };
-		495F717651B12E6496C72D16BCC28C29 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BC54BB95B99AB5F6E7E680B9D590DC /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CF0E043147B69E77976A2CCADFF18CA /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6440C53C032040AF76DDA81706E893 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CC4B79C1FEE1E7B3F2860ADA479D381 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A63582F4BF189706C6557D5CCCF3F /* AFURLSessionManager.m */; };
-		78449FCC01114171AA3CCB45C6666206 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB68FE03D73BEB6F089B56CFFC3059A /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		854BC4449D8CAD0F2799B021D1914C3B /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D360192C52A36210FB79AB54D85EC5 /* UIRefreshControl+AFNetworking.m */; };
-		876C2EF5FE318346CDCB4BFE25A9D5B2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2CF08B82A2308E3239E1C73957FB4D /* AFHTTPRequestOperation.m */; };
-		903A0E1F82A29D285902CBB5A0828BE9 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F232B7E3CC670B127CA11D15737350FE /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99E82D6DC032555656E37AF2367B20D3 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDD05A59CA893110E598CA58F4406A /* UIButton+AFNetworking.m */; };
-		9A04E971065AF4281E43947994A53D07 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A34736245599C8553DCB00D341DAF /* UIWebView+AFNetworking.m */; };
-		9B47A1441B897F71505D8BE670B0940B /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A64486C676D1B2D466FDC4CB196EA2BC /* UIAlertView+AFNetworking.m */; };
-		A28588D1CCB5253CF80509F30A1AF1A5 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 63FC2CEA169DC09A36EF8F03CEC25100 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4EE8D1BEE38B87066BAA1B09A047356 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CCA5A07499507CE767C51103BA831E28 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE607E682415FAA160B33C7C13A8475B /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 397F94B2172D2864E2B0FDF2851D6951 /* UIActivityIndicatorView+AFNetworking.m */; };
-		B12AD2EE044D6F7424F75F1506B516B2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4753E75DAC9F6D99D3C5D23BF78E991 /* AFSecurityPolicy.m */; };
-		B2B5DEC33B644F946C59F656AAAA8146 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42330092257175167E11543DC25A0900 /* AFNetworkActivityIndicatorManager.m */; };
-		B9DAA002CF3E0E8EBE9B6E9A7778CFD4 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C17CF1974D3D99A35D3CF416A84949B /* AFNetworking-dummy.m */; };
+		128993FF267CC0FA8EE6889C6AEC2EC3 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9346E4D3847073D0C513190C5E92A4 /* JSONModelArray.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		16A189CC65DC66678D3D637ED8B5B5FF /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = D5514C0CE70CB6F2034E42CEFC469BD0 /* JSONModel+networking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17D8C9D90B9DCDE1B8B9D5ECF8DADCEC /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 19AE2A5C47F8254933FE536C99E1A6AF /* JSONModelError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1CBDB47B210A0C2448C14A610BC6D4D6 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = CE621D7D6FE1E1C94948BE9183F2DF61 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E310D0CE3BE27EF253B6D822B0AEE5E /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D1806DBF00F9EE456058DAA805109A /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		211D4EA06F5920376A069ACB55DF6006 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E02F2463C41695BAFF81F720B0FFA0F /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		216E5A12ACFD64B84DC1A2E253336D9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C31A9B26388001B26382C7C355DA572 /* Foundation.framework */; };
+		2B8269A87473D9F1259E9BD98E7588D3 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 274A472574FF782FB8BEC5CA2A965F5A /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CF66E8669A348C421E93F2F67C6A61E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FFA7FFADAB7017BAE8EA4D3CF04CE8 /* AFHTTPSessionManager.m */; };
+		3033C63AC334D346E9461D0942D8FB69 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7023A7E9BE621AA3466DC95F59DCAABD /* AFURLRequestSerialization.m */; };
+		34E2BEC400CCC9FF7A00AB0832EA0628 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C31A9B26388001B26382C7C355DA572 /* Foundation.framework */; };
+		399AC825EE10F70364CE7B0AA89F466D /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0809A2B49E5DF16A633AF2D897ADFC57 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A5B54373A45916EC8DE74D060DE5503 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FAE0E38EBF49A383E3219E5A7AFA670 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		472A6BFCC6207D98F787649BDF44A1BE /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E81139F02370F080664C3DE67632BE /* AFHTTPRequestOperationManager.m */; };
+		495F717651B12E6496C72D16BCC28C29 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 692083EB31F56D79B7190F16DE9B0513 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A4DCF231CE4F0B8916A5FA4590C3343 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1206277A75B407327D1B693457685AA8 /* JSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4BDE97C783ED286933A60CAE9292B775 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 220B658030122D8FD31E5AFDFFDB4AD5 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE36D4B16AB5BD257BDBA97DE1BD733 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC5F0464AF0A6D6EAA3DF19F7A2A89 /* JSONModelClassProperty.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		52B9F1F399DEADDDFBE3F17BAA8D6D14 /* JSONModelArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5D3D04B3B5968AA6B630C4960E789D /* JSONModelArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CF0E043147B69E77976A2CCADFF18CA /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A57DBC245D778469C0C07B5535336BDA /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CC4B79C1FEE1E7B3F2860ADA479D381 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D52AE7D7258412C28199B78B1D6BBD0 /* AFURLSessionManager.m */; };
+		724D5AE92638FBB6F3271FC7BA39C673 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		740B64AC8CA44CDC54A3A2CCB396A0EB /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = B33D5CC47DF51C08F99BF2294EC8A1BC /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78449FCC01114171AA3CCB45C6666206 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF0B6A9DDB37F34B7B56B0E276F6CFB /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854BC4449D8CAD0F2799B021D1914C3B /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C652430EA41127F19CDEAAC1C63AA21 /* UIRefreshControl+AFNetworking.m */; };
+		85AC21BC7BD345D84F489F7A52D39E44 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4573BF7D28A6C3CA31E8775ED6239B5C /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		876C2EF5FE318346CDCB4BFE25A9D5B2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C030C7F9B2C28353564DE616F74480C4 /* AFHTTPRequestOperation.m */; };
+		8F11ABA0C553B18981097015226E5748 /* NSArray+JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E910AA5FC7012C8E3102B115A53EDD47 /* NSArray+JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		903A0E1F82A29D285902CBB5A0828BE9 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A5EB5F3795863DBC7A9C419B9E35F59 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E82D6DC032555656E37AF2367B20D3 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 69921CD80D4407E51C21E9AA7C70C2B3 /* UIButton+AFNetworking.m */; };
+		9A04E971065AF4281E43947994A53D07 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 554C0689FC62B1FA147E9ADFF82537C0 /* UIWebView+AFNetworking.m */; };
+		9B47A1441B897F71505D8BE670B0940B /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4FBB16770BE2DED300DDDA75BC0D44 /* UIAlertView+AFNetworking.m */; };
+		A28588D1CCB5253CF80509F30A1AF1A5 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C84452B603EDD8642040EEF5E58D6BFA /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EE8D1BEE38B87066BAA1B09A047356 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 993A7F7627AF67015986F0F3DD2A03D7 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABC9A1F8D86F932BEE6C28A8849048A6 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 31228E93F62868581387673D211DBF29 /* JSONKeyMapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ACF42F60DB38312D939C3817F3AECE32 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D526F0FBE66DA8F926A5E944CE65FF17 /* JSONHTTPClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AE607E682415FAA160B33C7C13A8475B /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1890A1F3997F92ECA97CA8D29C78BB15 /* UIActivityIndicatorView+AFNetworking.m */; };
+		AED2BAD1D43745DD69F82C134A985AB3 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 370F4D86BC2A7E0B80615D1ECE49E325 /* JSONAPI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B12AD2EE044D6F7424F75F1506B516B2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEAFAB8A6039FDEEC6A0CC29BF5A05 /* AFSecurityPolicy.m */; };
+		B2B5DEC33B644F946C59F656AAAA8146 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 549E8C1665FC24FF0C76FA0D1E50412C /* AFNetworkActivityIndicatorManager.m */; };
+		B685C45C6BF1321FC17F0F03AC635E4C /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E75DEEB83F5178C8979F273885B797D2 /* NSArray+JSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B82A170962598E7EAE9A8752574B7B74 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E97F0E702A76412A91FE98B299F2DA /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9DAA002CF3E0E8EBE9B6E9A7778CFD4 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F8DA91DBD80345D411841DA4DC5B5F /* AFNetworking-dummy.m */; };
 		BA025A85A850C1E24A6C92F4C29E5531 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C168D5DBDB78691493E24B13EF6B6A8 /* SystemConfiguration.framework */; };
-		BC7993B7436D4D7FADE6DD554DA52769 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B322F6930CB495FA6187DC84C7CF0E5 /* AFNetworkReachabilityManager.m */; };
-		C58268D5A4D2A786576E0EAA5B50FB93 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FFA0D1C2E6B97A265386004D0089A7C /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7ACDDE36465ACAF629FEC233B1BF172 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E42EAD4D66965864068BD2DEC798E8FE /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAA0F8074B35A2F73890310EC4521A0D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6B8282D0BDD21BF473D236A4C5C44B /* AFURLResponseSerialization.m */; };
-		D070B784EFCA099C141EEAB69FBCC870 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EFDD905CB48C2FFC3D3B74ED0EE109 /* UIImageView+AFNetworking.m */; };
-		D4A65C2E29ACB340587FD41196176F8A /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B4761FBA8D5E522A89440433A3885C /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D722DF12F728BCCE63D2105CF296EEB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C31A9B26388001B26382C7C355DA572 /* Foundation.framework */; };
-		DB2E92A71137AD2E6993E8B0CE682C89 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A1FB68A3CA0D6E018BBE1805A06A73AE /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC7993B7436D4D7FADE6DD554DA52769 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6F8291901F5D2A9E280565027CF823 /* AFNetworkReachabilityManager.m */; };
+		C58268D5A4D2A786576E0EAA5B50FB93 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CF8322D2012B7A328E3613E84144F492 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C591CE6B9FA1950409E543A70B3ECABE /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = F061F5ACFC83FD45A27A1FF5C47BCE20 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7ACDDE36465ACAF629FEC233B1BF172 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D6DF7FB06044550117B03ADA7E352671 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAA0F8074B35A2F73890310EC4521A0D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C799A795316CA2602EAC53AF8197A1B /* AFURLResponseSerialization.m */; };
+		D070B784EFCA099C141EEAB69FBCC870 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C06EDE4B5363BC3405B9388E6DCB7848 /* UIImageView+AFNetworking.m */; };
+		D2718FB5214DA8A524CE735932323F82 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC3A5C1117CF3B3EEDE9004123AAC28 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4A65C2E29ACB340587FD41196176F8A /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B3F910FCC8EB025C5683BEDAC4A288 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4EF11B8928C1374360A67C3BC22AD13 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C2ED14199AA385E234DF54B3BE3E1 /* JSONModel-dummy.m */; };
+		DB2E92A71137AD2E6993E8B0CE682C89 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D598D83D14B4B4760B0FED5E7F9D75 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB42C604EF2F39D542F805AC6A05E090 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B240D99C3FC6A7DC6C66A2434CA799 /* MobileCoreServices.framework */; };
-		DECD5915774351B8473476B041DD87D7 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C04EC81C5A5CD68617954D24FFA926CE /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6DD6ABB4FC13B60FA54C950FB6B262B /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D72CA481FBF05057A7CA0CAF18636F61 /* AFURLConnectionOperation.m */; };
+		DCB74D72FE0E9C8C8E23B49C8CE52276 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7C044FF88DBACE06412141DF1E2E99 /* JSONValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DECD5915774351B8473476B041DD87D7 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BB39B251D32AC1D2F62E919A7774C21C /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6DD6ABB4FC13B60FA54C950FB6B262B /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 640DD3F597F190A6DA4A5A82304458B5 /* AFURLConnectionOperation.m */; };
 		F08E19D8B440D85D564273B1A501B1FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F2B5E013FD1D42752E768761E043FC /* CoreGraphics.framework */; };
 		F2AF56F00E313B9CD0F4ADA3C5D73BDF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19DF616941A51576DD057A9FD8F4AD8 /* Security.framework */; };
-		F4A1512E8C4D8C8194CBB276BF72A552 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 721DFC084F065A3E12BB579ABD5A9BCB /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4B03681047157E5C357E584147F5A46 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 86799D45DBE172A36CE021875DE9291F /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4DCBA2A42A38C6E7A755182DA50DEA2 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F90D1403F8D619F04E3973AE9AC346EA /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD6F966F458CEE40B07A2367BA3BC8EC /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F28878FC1254579847211CAF765FF6B /* UIProgressView+AFNetworking.m */; };
+		F4A1512E8C4D8C8194CBB276BF72A552 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0512660ADBD1AE610E963EB9BE69D471 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4B03681047157E5C357E584147F5A46 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1805A3F0334312E9CBD97BED6082FE /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D2A0918C2C064F1A16B4CA2D42089A /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C99F6CB56BB2EAFA55B3521AF7C0BAC /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DCBA2A42A38C6E7A755182DA50DEA2 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A23F1CE2B13D57E99055A88C0B9450 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B5D2658B77049DDEC0AAA88E6FCEA7 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = A344D7D265D22D04235F7FFCAD0338FB /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD6F966F458CEE40B07A2367BA3BC8EC /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CC13CB863854D5742AB71BD03FDDEB /* UIProgressView+AFNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0E7A550CBB1789890208A2DC375FA909 /* PBXContainerItemProxy */ = {
+		2F27C42D2F097303277D0B80C93A9D3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 410B25DF16EA5C5B3E2698F74F9625FB;
 			remoteInfo = AFNetworking;
 		};
+		2FE0BDE6029F9E78B4B9608DDA0296A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09FA060F1A0492FB25232F489AC4E573;
+			remoteInfo = JSONModel;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0107ABFC013D49C1D2BC785FDFE879FF /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		0798980FCDE477E84D1E2C77BB5F7CB7 /* EMRobot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMRobot.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMRobot.h; sourceTree = "<group>"; };
-		0FFA0D1C2E6B97A265386004D0089A7C /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		01650843952D8EE0AF881813B2903CE9 /* libEaseMobClientSDKLite_i386.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEaseMobClientSDKLite_i386.a; path = EaseMobSDK/lib/libEaseMobClientSDKLite_i386.a; sourceTree = "<group>"; };
+		0277E06D91BF424B3186D37B88F79871 /* EMGroupStyleSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroupStyleSetting.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMGroupStyleSetting.h; sourceTree = "<group>"; };
+		034EE7C8CDF9C6A0C491F3AF50D573B5 /* EMChatVoice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatVoice.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatVoice.h; sourceTree = "<group>"; };
+		0512660ADBD1AE610E963EB9BE69D471 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		0809A2B49E5DF16A633AF2D897ADFC57 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		09FFA7FFADAB7017BAE8EA4D3CF04CE8 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		0A4FBB16770BE2DED300DDDA75BC0D44 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		0C652430EA41127F19CDEAAC1C63AA21 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		0FF79C9A91493E4D4FFAD89F5CA7F414 /* IChatManagerBuddy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerBuddy.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerBuddy.h; sourceTree = "<group>"; };
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		150FCF7650FD9DEA77ADB0DFBE84776F /* EMChatManagerBuddyDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerBuddyDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerBuddyDelegate.h; sourceTree = "<group>"; };
-		17AD8B514FD48D14007919C467E74D8C /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		1D1F5F42D8277606431D18205106B85E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E2CF08B82A2308E3239E1C73957FB4D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		1F7629D09F803F567426C25DB158ED53 /* EMChatVoice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatVoice.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatVoice.h; sourceTree = "<group>"; };
-		1FC221CA6122FBE6AED2550E7C9C5974 /* EMChatLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatLocation.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatLocation.h; sourceTree = "<group>"; };
-		20CFE909E407B5939BFFE7FE5C8D0D06 /* EMChatVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatVideo.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatVideo.h; sourceTree = "<group>"; };
-		21E20FFBDB7D9453F92A70BB98CA0581 /* IChatManagerConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerConversation.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerConversation.h; sourceTree = "<group>"; };
-		24BF5E1CC17B88F037F75C86A3ABD404 /* IEMChatFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMChatFile.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatFile.h; sourceTree = "<group>"; };
-		2672CAAA8C4694432746CD68B7FFF8B3 /* libEaseMobClientSDKLite_i386.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEaseMobClientSDKLite_i386.a; path = EaseMobSDK/lib/libEaseMobClientSDKLite_i386.a; sourceTree = "<group>"; };
-		268B28A94B51DADD217E29905046292E /* IDeviceManagerBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDeviceManagerBase.h; path = EaseMobSDK/include/Utility/EMDeviceManager/internal/IDeviceManagerBase.h; sourceTree = "<group>"; };
-		26D360192C52A36210FB79AB54D85EC5 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		11C2CF89F3100BFF491D2394963215EC /* EMChatManagerChatDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerChatDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerChatDelegate.h; sourceTree = "<group>"; };
+		1206277A75B407327D1B693457685AA8 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		1713FFD0C4F75F7B31561CE27F430577 /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		17F8DA91DBD80345D411841DA4DC5B5F /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		181A9113130DCDB7BAFC9C58B8E9B0A6 /* EMChatManagerUtilDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerUtilDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerUtilDelegate.h; sourceTree = "<group>"; };
+		188DBADC5272BFB3FD7217842B8B06BA /* EMCallManagerCallDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCallManagerCallDelegate.h; path = EaseMobSDK/include/CallService/EMCallManager/delegates/EMCallManagerCallDelegate.h; sourceTree = "<group>"; };
+		1890A1F3997F92ECA97CA8D29C78BB15 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		18F1A6344D759961812038256A4EAF97 /* IOpenGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IOpenGLView.h; path = EaseMobSDK/include/CallService/EMCallManager/types/IOpenGLView.h; sourceTree = "<group>"; };
+		19AE2A5C47F8254933FE536C99E1A6AF /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		1B0EB208634F0AD4CEC8883FD7BC250D /* libEaseMobClientSDKLite_x86_64.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEaseMobClientSDKLite_x86_64.a; path = EaseMobSDK/lib/libEaseMobClientSDKLite_x86_64.a; sourceTree = "<group>"; };
+		1B9346E4D3847073D0C513190C5E92A4 /* JSONModelArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelArray.m; path = JSONModel/JSONModel/JSONModelArray.m; sourceTree = "<group>"; };
+		1D4E3935BA1CAADC8B34222511A3048A /* EMChatManagerDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerDefs.h; path = EaseMobSDK/include/ChatService/EMChatManager/EMChatManagerDefs.h; sourceTree = "<group>"; };
+		1F706A87783C6BB3B8825F8A4513FEBC /* EMChatVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatVideo.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatVideo.h; sourceTree = "<group>"; };
+		21A06EE3F7311CE72D9EA540886768C7 /* EMCallManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCallManagerDelegate.h; path = EaseMobSDK/include/CallService/EMCallManager/delegates/EMCallManagerDelegate.h; sourceTree = "<group>"; };
+		220B658030122D8FD31E5AFDFFDB4AD5 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		292E21648B7E7B1381F33D07133A92E1 /* EMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMError.h; path = EaseMobSDK/include/Utility/ErrorManager/EMError.h; sourceTree = "<group>"; };
-		3260EF8AEE9B1AA9AD692653541E552C /* EMCallManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCallManagerDelegate.h; path = EaseMobSDK/include/CallService/EMCallManager/delegates/EMCallManagerDelegate.h; sourceTree = "<group>"; };
-		33F9792890BBBFFF0DB434ACC416C719 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		274A472574FF782FB8BEC5CA2A965F5A /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		2D419453F4F69E0898E2A302269B98D1 /* EaseMobHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EaseMobHeaders.h; path = EaseMobSDK/include/EaseMobClientSDK/EaseMobHeaders.h; sourceTree = "<group>"; };
+		2D922031249381D07D4B916F26913DAE /* libEaseMobClientSDKLite_arm64.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEaseMobClientSDKLite_arm64.a; path = EaseMobSDK/lib/libEaseMobClientSDKLite_arm64.a; sourceTree = "<group>"; };
+		2E16420A20648A7898F1C1CE664E7E5B /* EMChatManagerChatroomDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerChatroomDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerChatroomDelegate.h; sourceTree = "<group>"; };
+		2FFDB08495B64FE3D1A39964C9AF0592 /* EMDeviceManagerNetworkDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMDeviceManagerNetworkDelegate.h; path = EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerNetworkDelegate.h; sourceTree = "<group>"; };
+		30D6C3B0FFEBC87CDF2C1A2CA4C09AF0 /* EMVoiceMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMVoiceMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMVoiceMessageBody.h; sourceTree = "<group>"; };
+		31228E93F62868581387673D211DBF29 /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		3155E6959C3E2AA2A5E72F8228695546 /* EMBuddy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMBuddy.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMBuddy.h; sourceTree = "<group>"; };
+		319155641E733C442890C55B063D9EC3 /* IChatManagerUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerUtil.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerUtil.h; sourceTree = "<group>"; };
+		3628F5DB2359FE063841AFE1402A31B3 /* IChatManagerGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerGroup.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerGroup.h; sourceTree = "<group>"; };
+		36F321A0B2FB687251536F5DE068D3AB /* ICallManagerCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICallManagerCall.h; path = EaseMobSDK/include/CallService/EMCallManager/internal/ICallManagerCall.h; sourceTree = "<group>"; };
+		370F4D86BC2A7E0B80615D1ECE49E325 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		37BC5810FE1D207D5FB5174FC72B7EBB /* IEMChatProgressDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMChatProgressDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatProgressDelegate.h; sourceTree = "<group>"; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		38B7D6E2783AC6222AE1A71B68358BAD /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		38BC54BB95B99AB5F6E7E680B9D590DC /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		397F94B2172D2864E2B0FDF2851D6951 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		3B87F6DC237C28F3874269AE49D47838 /* EMChatCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatCommand.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatCommand.h; sourceTree = "<group>"; };
-		3C17CF1974D3D99A35D3CF416A84949B /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		3D8383AA003BF5E915259C8E2EAFEC2F /* IChatManagerEncryption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerEncryption.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerEncryption.h; sourceTree = "<group>"; };
-		3FFE306875E3C25DD70CA455E6A7CD07 /* IDeviceManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDeviceManagerDelegate.h; path = EaseMobSDK/include/Utility/EMDeviceManager/delegates/IDeviceManagerDelegate.h; sourceTree = "<group>"; };
-		4194098A2B23EB61B4936BD30CC71EFC /* EMChatImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatImage.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatImage.h; sourceTree = "<group>"; };
-		420F579C1B34CE9F7563704B8F69DE57 /* IChatManagerBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerBase.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerBase.h; sourceTree = "<group>"; };
-		42330092257175167E11543DC25A0900 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		429832F0A5B51AFF5FC6861B7C0FC029 /* EaseMob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EaseMob.h; path = EaseMobSDK/include/EaseMobClientSDK/EaseMob.h; sourceTree = "<group>"; };
-		45A0D8829179123D44869A04586C514A /* EMChatManagerEncryptionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerEncryptionDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerEncryptionDelegate.h; sourceTree = "<group>"; };
-		45E040999279B8E531AB78A7E35B5021 /* IChatManagerPushNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerPushNotification.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerPushNotification.h; sourceTree = "<group>"; };
-		47392A71722CFF968EB5C7DFBDDD814D /* EMCallServiceDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCallServiceDefs.h; path = EaseMobSDK/include/CallService/EMCallManager/EMCallServiceDefs.h; sourceTree = "<group>"; };
-		493AA40A81F090E520721CEC76957622 /* EaseMob.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = EaseMob.bundle; path = EaseMobSDK/resources/EaseMob.bundle; sourceTree = "<group>"; };
-		4AB88E44ED245D099DDF22046676A4D1 /* EMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMMessage.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMMessage.h; sourceTree = "<group>"; };
-		4B168D8BE519A640B3EEBB94C88A8FD3 /* EMFileMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMFileMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMFileMessageBody.h; sourceTree = "<group>"; };
-		4B2FEE1E50A6952358138968312452F9 /* IChatManagerSettingOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerSettingOptions.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerSettingOptions.h; sourceTree = "<group>"; };
-		4B9AA7C7CA2AEB24F0ED53E7A80E3C2D /* IChatManagerBuddy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerBuddy.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerBuddy.h; sourceTree = "<group>"; };
-		4E075AB1D20722CC125A60991BDF3B1F /* IChatManagerGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerGroup.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerGroup.h; sourceTree = "<group>"; };
+		396051F2F5520ACA516689EBCCA2F00C /* IChatManagerChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerChat.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerChat.h; sourceTree = "<group>"; };
+		3C07E4F782802168275FD0A9F934CDCE /* EMReceipt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMReceipt.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMReceipt.h; sourceTree = "<group>"; };
+		3C99F6CB56BB2EAFA55B3521AF7C0BAC /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		3DFEAFAB8A6039FDEEC6A0CC29BF5A05 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		3F310BDF530AC0CFD5CF038D459BB8D6 /* libEaseMobClientSDKLite_armv7.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEaseMobClientSDKLite_armv7.a; path = EaseMobSDK/lib/libEaseMobClientSDKLite_armv7.a; sourceTree = "<group>"; };
+		3FAE0E38EBF49A383E3219E5A7AFA670 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		42C8FA848CE1F104ABC76313837A9236 /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D598D83D14B4B4760B0FED5E7F9D75 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		4573BF7D28A6C3CA31E8775ED6239B5C /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		45CC13CB863854D5742AB71BD03FDDEB /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		4699FCF1E19430AD2E2BCEC5AFBA1922 /* EMVideoMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMVideoMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMVideoMessageBody.h; sourceTree = "<group>"; };
+		47AB44871FDD7886DEFBBA1A39545ABD /* EMDeviceManagerDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMDeviceManagerDefs.h; path = EaseMobSDK/include/Utility/EMDeviceManager/EMDeviceManagerDefs.h; sourceTree = "<group>"; };
+		492B8ED4130EAC011B86F1655A8291D1 /* EMPushManagerDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMPushManagerDefs.h; path = EaseMobSDK/include/ChatService/EMChatManager/EMPushManagerDefs.h; sourceTree = "<group>"; };
+		4A57089C4A624E6D24E69842F600CC51 /* libEaseMobClientSDKLite_armv7s.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEaseMobClientSDKLite_armv7s.a; path = EaseMobSDK/lib/libEaseMobClientSDKLite_armv7s.a; sourceTree = "<group>"; };
+		4C799A795316CA2602EAC53AF8197A1B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		4E02F2463C41695BAFF81F720B0FFA0F /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		4E4101C61F31BA21621C4739E6AA7E21 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		4F6756B447657E12C80A5AA6D0873180 /* IChatImageOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatImageOptions.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/IChatImageOptions.h; sourceTree = "<group>"; };
-		56FBDEF5E9AD91EBEA2044CA52223E44 /* IChatManagerLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerLogin.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerLogin.h; sourceTree = "<group>"; };
-		572ADD8B80B600252A66A2C434EA48F1 /* EMReceiptBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMReceiptBase.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMReceiptBase.h; sourceTree = "<group>"; };
+		4EF38161E44DCAE383C5E847B054D646 /* EMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMMessage.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMMessage.h; sourceTree = "<group>"; };
+		53999E10762C827FBA9575D5A8C41C40 /* IChatManagerBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerBase.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerBase.h; sourceTree = "<group>"; };
+		53B343DC00E32C0D81DD59B0A82C1668 /* IChatManagerRobot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerRobot.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerRobot.h; sourceTree = "<group>"; };
+		53DE5D85E9009F4D91F0FF69ECABB84E /* EMCallSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCallSession.h; path = EaseMobSDK/include/CallService/EMCallManager/types/EMCallSession.h; sourceTree = "<group>"; };
+		549E8C1665FC24FF0C76FA0D1E50412C /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		554C0689FC62B1FA147E9ADFF82537C0 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		57DF13049B6848304889BEE39D26797E /* EMChatFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatFile.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatFile.h; sourceTree = "<group>"; };
 		57F2B5E013FD1D42752E768761E043FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		58B4761FBA8D5E522A89440433A3885C /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		59BA2133C78F44476D2B3E2626675ED9 /* EMDeviceManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMDeviceManagerDelegate.h; path = EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerDelegate.h; sourceTree = "<group>"; };
-		5C50D2CED99A5C72CAC3BC17E4A15C94 /* IChatManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManager.h; path = EaseMobSDK/include/ChatService/EMChatManager/IChatManager.h; sourceTree = "<group>"; };
-		5DBB63BEDF4393619EDC721367EEA36E /* commonDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = commonDefs.h; path = EaseMobSDK/include/Utility/commonDefs.h; sourceTree = "<group>"; };
-		5F28878FC1254579847211CAF765FF6B /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		5FB293864E28F2EB45201B9B7DBBA9E6 /* EaseMobHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EaseMobHeaders.h; path = EaseMobSDK/include/EaseMobClientSDKLite/EaseMobHeaders.h; sourceTree = "<group>"; };
-		63FC2CEA169DC09A36EF8F03CEC25100 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		643FFDEEC7CDBC6CB6E1287EEEE194DD /* ICallManagerCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICallManagerCall.h; path = EaseMobSDK/include/CallService/EMCallManager/internal/ICallManagerCall.h; sourceTree = "<group>"; };
+		5D1508AC33E21672B0DDABB92BC32CAD /* EMChatManagerPushNotificationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerPushNotificationDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerPushNotificationDelegate.h; sourceTree = "<group>"; };
+		5F5F1B7DA3F820D51E0B015F98E7E17B /* IChatImageOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatImageOptions.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/IChatImageOptions.h; sourceTree = "<group>"; };
+		62A71A605D48B715EBE83A729B5A78AD /* EMChatManagerGroupDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerGroupDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerGroupDelegate.h; sourceTree = "<group>"; };
+		640DD3F597F190A6DA4A5A82304458B5 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		654E0A449F969770520DF2C372D5F6B1 /* IChatManagerPushNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerPushNotification.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerPushNotification.h; sourceTree = "<group>"; };
 		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
-		6967C7B41AEA410B5A1B2E074926BFD3 /* EMChatManagerLoginDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerLoginDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerLoginDelegate.h; sourceTree = "<group>"; };
-		6C1ED9C3828C04E4C8E1C1EAB3903CB1 /* EMChatManagerUtilDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerUtilDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerUtilDelegate.h; sourceTree = "<group>"; };
-		6E6DB095268903E739415A22B796F2B0 /* libEaseMobClientSDKLite_armv7s.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEaseMobClientSDKLite_armv7s.a; path = EaseMobSDK/lib/libEaseMobClientSDKLite_armv7s.a; sourceTree = "<group>"; };
-		6EA14E959C2CD4E2D736B3E5B0EE84D0 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		70177F6552595428963D53DE53414B6B /* EMLocationMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMLocationMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMLocationMessageBody.h; sourceTree = "<group>"; };
-		705FC0A2B203153B38F1F3F9BB78D1DA /* EMVoiceMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMVoiceMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMVoiceMessageBody.h; sourceTree = "<group>"; };
-		708AE9A316D1F85F063CCD1B69004211 /* EMChatFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatFile.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatFile.h; sourceTree = "<group>"; };
-		70AB76142EC635876CC3AC05433DE15A /* EMPushManagerDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMPushManagerDefs.h; path = EaseMobSDK/include/ChatService/EMChatManager/EMPushManagerDefs.h; sourceTree = "<group>"; };
-		721DFC084F065A3E12BB579ABD5A9BCB /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		72FA24F210F6963F85BBD3BC6F368B9B /* EMChatText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatText.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatText.h; sourceTree = "<group>"; };
-		741204A1355AF6F7DAC9453C20895034 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		79BA0D9401C70A458C1B8EAA7FCA4C46 /* ICallManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICallManager.h; path = EaseMobSDK/include/CallService/EMCallManager/ICallManager.h; sourceTree = "<group>"; };
-		7AC376826D5129378E00DE42F58EFA91 /* libEaseMobClientSDKLite_armv7.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEaseMobClientSDKLite_armv7.a; path = EaseMobSDK/lib/libEaseMobClientSDKLite_armv7.a; sourceTree = "<group>"; };
+		692083EB31F56D79B7190F16DE9B0513 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		69921CD80D4407E51C21E9AA7C70C2B3 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		6A5EB5F3795863DBC7A9C419B9E35F59 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		7023A7E9BE621AA3466DC95F59DCAABD /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		7A626A4D17EE7615C4D9031EA9DB33DC /* commonDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = commonDefs.h; path = EaseMobSDK/include/Utility/commonDefs.h; sourceTree = "<group>"; };
+		7B52414BDA127350873D50BADACA65CC /* EMChatroom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatroom.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatroom.h; sourceTree = "<group>"; };
 		7C168D5DBDB78691493E24B13EF6B6A8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		7E6440C53C032040AF76DDA81706E893 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		7F8334EA4D728AE7F4C3C3349DD401F4 /* EMChatManagerPushNotificationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerPushNotificationDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerPushNotificationDelegate.h; sourceTree = "<group>"; };
-		832B973F4524695926581EBD0FDCEBFE /* EMErrorDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMErrorDefs.h; path = EaseMobSDK/include/Utility/ErrorManager/EMErrorDefs.h; sourceTree = "<group>"; };
-		86799D45DBE172A36CE021875DE9291F /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		878FD4A37FDAD0630D450BFB9ED624F2 /* EMReceipt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMReceipt.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMReceipt.h; sourceTree = "<group>"; };
-		88799BA973BC29138A885DBF58E155C5 /* EMChatManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerDelegate.h; sourceTree = "<group>"; };
-		888A63582F4BF189706C6557D5CCCF3F /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		88A89D4790880D5070771E0AD3B3C0BB /* EMDeviceManagerNetworkDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMDeviceManagerNetworkDelegate.h; path = EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerNetworkDelegate.h; sourceTree = "<group>"; };
-		8B322F6930CB495FA6187DC84C7CF0E5 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		8D0298FB5C62CA1FE112E166476B2043 /* libEaseMobClientSDKLite_x86_64.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEaseMobClientSDKLite_x86_64.a; path = EaseMobSDK/lib/libEaseMobClientSDKLite_x86_64.a; sourceTree = "<group>"; };
-		8D104701594005B0A40344ACB9A6480A /* EaseMob+CallService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EaseMob+CallService.h"; path = "EaseMobSDK/include/CallService/EMCallManager/EaseMob+CallService.h"; sourceTree = "<group>"; };
-		8D62BD824C6A996BFD579641E08DB740 /* EMCallManagerCallDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCallManagerCallDelegate.h; path = EaseMobSDK/include/CallService/EMCallManager/delegates/EMCallManagerCallDelegate.h; sourceTree = "<group>"; };
-		8E6B8282D0BDD21BF473D236A4C5C44B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		7CE8A43174021A373378CBE6C5B0066B /* EMChatImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatImage.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatImage.h; sourceTree = "<group>"; };
+		7E13C6E39A98E5DF90FA94CE7D09996A /* EMErrorDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMErrorDefs.h; path = EaseMobSDK/include/Utility/ErrorManager/EMErrorDefs.h; sourceTree = "<group>"; };
+		7EE5E775EAC283EC53A6BC0AEE0B7F2F /* EaseMob.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = EaseMob.bundle; path = EaseMobSDK/resources/EaseMob.bundle; sourceTree = "<group>"; };
+		7F5D3D04B3B5968AA6B630C4960E789D /* JSONModelArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelArray.h; path = JSONModel/JSONModel/JSONModelArray.h; sourceTree = "<group>"; };
+		80FC5F0464AF0A6D6EAA3DF19F7A2A89 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		81B199C5B02F71BF7A6484348F4EACDC /* EMPushNotificationOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMPushNotificationOptions.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMPushNotificationOptions.h; sourceTree = "<group>"; };
+		81E6F7DE739CB0555A3390C5A8860342 /* EMChatCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatCommand.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatCommand.h; sourceTree = "<group>"; };
+		8275B4EE23B46ADA3637560191B14F96 /* IDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDeviceManager.h; path = EaseMobSDK/include/Utility/EMDeviceManager/IDeviceManager.h; sourceTree = "<group>"; };
+		8301DCA8A726A634B9BBEE84458279F8 /* ICallManagerBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICallManagerBase.h; path = EaseMobSDK/include/CallService/EMCallManager/internal/ICallManagerBase.h; sourceTree = "<group>"; };
+		85E97F0E702A76412A91FE98B299F2DA /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		85FE41FE884E33F10307BB806728108B /* IChatManagerEncryption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerEncryption.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerEncryption.h; sourceTree = "<group>"; };
+		860AD26B5033A915D1979E307480DEF7 /* IChatManagerConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerConversation.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerConversation.h; sourceTree = "<group>"; };
+		87D60D6C9ECF73FD0348E056F29F820D /* EMDeviceManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMDeviceManagerDelegate.h; path = EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerDelegate.h; sourceTree = "<group>"; };
+		8B8098A5DCA80D30D38EB65F6ADDE830 /* EaseMobHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EaseMobHeaders.h; path = EaseMobSDK/include/EaseMobClientSDKLite/EaseMobHeaders.h; sourceTree = "<group>"; };
+		8D52AE7D7258412C28199B78B1D6BBD0 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		8F5C2ED14199AA385E234DF54B3BE3E1 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+		90378E60561B46D4A246B747F7349254 /* EMChatManagerBuddyDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerBuddyDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerBuddyDelegate.h; sourceTree = "<group>"; };
+		91A2A5F15D2F5EB5B3D20E79BFB8175C /* EMChatLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatLocation.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatLocation.h; sourceTree = "<group>"; };
+		92B28402B1E367A6E8B472EE1382A727 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		934B93F15DED35FE75676B59BDD2EFD2 /* EMCursorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCursorResult.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMCursorResult.h; sourceTree = "<group>"; };
+		93DEDFF2019CA7BC6D60134F87C42E46 /* EMCommandMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCommandMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMCommandMessageBody.h; sourceTree = "<group>"; };
+		94446CAD7B001EC31E770DC2872403BD /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		98D36761E306CF6AFC958EE2A631E8AC /* EMPushNotificationOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMPushNotificationOptions.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMPushNotificationOptions.h; sourceTree = "<group>"; };
-		98EEEF5A2B4C170D96FE36410803CEFD /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		9AF8A91B1A4E67B42F34DF8DF51C060F /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		9B8A34736245599C8553DCB00D341DAF /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		993A7F7627AF67015986F0F3DD2A03D7 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		9C31A9B26388001B26382C7C355DA572 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9EE82C17C6F185933AA08469194E8456 /* EaseMobHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EaseMobHeaders.h; path = EaseMobSDK/include/EaseMobClientSDK/EaseMobHeaders.h; sourceTree = "<group>"; };
+		9CDD3A059553668357A2CE55E5411571 /* IChatManagerChatroom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerChatroom.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerChatroom.h; sourceTree = "<group>"; };
+		9DF11A5E0053A6C9A4160F268EF45244 /* IEMFileMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMFileMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/IEMFileMessageBody.h; sourceTree = "<group>"; };
 		A19DF616941A51576DD057A9FD8F4AD8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		A1FB68A3CA0D6E018BBE1805A06A73AE /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		A3746A46D46E94085E479204C9EB8DFF /* EMChatManagerGroupDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerGroupDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerGroupDelegate.h; sourceTree = "<group>"; };
-		A64486C676D1B2D466FDC4CB196EA2BC /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
-		A669CC786AFADD00DF4DA45F26CA8232 /* IChatManagerUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerUtil.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerUtil.h; sourceTree = "<group>"; };
-		A6AF352D4F09E7EA655F0FF021429BC8 /* EMNetworkMonitorDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMNetworkMonitorDefs.h; path = EaseMobSDK/include/Utility/EMNetworkMonitorDefs.h; sourceTree = "<group>"; };
-		A8CE3A8CA0DC335E2B4288BC22682887 /* IEMMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/IEMMessageBody.h; sourceTree = "<group>"; };
-		AAD3B50365C4B7FD5ADC3A23DA2667EB /* libEaseMobClientSDKLite_arm64.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEaseMobClientSDKLite_arm64.a; path = EaseMobSDK/lib/libEaseMobClientSDKLite_arm64.a; sourceTree = "<group>"; };
-		AAF0B414BD801A832580B51FEE6510E8 /* EMCallSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCallSession.h; path = EaseMobSDK/include/CallService/EMCallManager/types/EMCallSession.h; sourceTree = "<group>"; };
-		AC9EC5AD9F3B1DE6D2B1DDD89D35EAE2 /* EMCursorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCursorResult.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMCursorResult.h; sourceTree = "<group>"; };
-		B0F57CFF08A4C0546F67A31B941906AF /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		B59EDE240B774F6E6B8E4666C6A25735 /* IDeviceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDeviceManager.h; path = EaseMobSDK/include/Utility/EMDeviceManager/IDeviceManager.h; sourceTree = "<group>"; };
-		B5B07DBB7E6398123B496C04CCBC41E9 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		B6A0CEC2174731F628D7B1F352D66BE0 /* EMChatManagerChatroomDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerChatroomDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerChatroomDelegate.h; sourceTree = "<group>"; };
+		A344D7D265D22D04235F7FFCAD0338FB /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		A57DBC245D778469C0C07B5535336BDA /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		A5B3F910FCC8EB025C5683BEDAC4A288 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		A78C5C8713334CC1C237ED852DFDFB2A /* EMReceiptBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMReceiptBase.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMReceiptBase.h; sourceTree = "<group>"; };
+		A8502CE51B317914C69037B75FA19325 /* EMChatManagerDelegateBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerDelegateBase.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerDelegateBase.h; sourceTree = "<group>"; };
+		A8F49A5D0FC18D5FFD54636A7020F613 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		AB2A0B551BDAAA142DB7E566D4137B10 /* IEMChatFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMChatFile.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatFile.h; sourceTree = "<group>"; };
+		ABECBFC6FAA010F19F4B24D8759F1CE2 /* EMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMError.h; path = EaseMobSDK/include/Utility/ErrorManager/EMError.h; sourceTree = "<group>"; };
+		AE0917415867825801D7DF8CC0E69602 /* EMCallServiceDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCallServiceDefs.h; path = EaseMobSDK/include/CallService/EMCallManager/EMCallServiceDefs.h; sourceTree = "<group>"; };
+		AEB9A0F8BEBC3B2F1C0402DE8BBF5C42 /* EMGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroup.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMGroup.h; sourceTree = "<group>"; };
+		B1034A131E737684AC23EEC70DB14B0B /* EaseMob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EaseMob.h; path = EaseMobSDK/include/EaseMobClientSDKLite/EaseMob.h; sourceTree = "<group>"; };
+		B33D5CC47DF51C08F99BF2294EC8A1BC /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		B3B406D9BF62F0C9F58D4F852F80C559 /* EaseMob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EaseMob.h; path = EaseMobSDK/include/EaseMobClientSDK/EaseMob.h; sourceTree = "<group>"; };
+		B630F428B1328343F696A7DF3F2D4D1D /* IEMMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/IEMMessageBody.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB1D319B0C0A92559571D53A89E302FB /* IChatManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/IChatManagerDelegate.h; sourceTree = "<group>"; };
-		BCE90402B986C90F90EBEB1E5060B845 /* EMImageMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMImageMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMImageMessageBody.h; sourceTree = "<group>"; };
-		BCF6D8C2C38022E4C4B7B21F7BFF305E /* EaseMob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EaseMob.h; path = EaseMobSDK/include/EaseMobClientSDKLite/EaseMob.h; sourceTree = "<group>"; };
-		BDB68FE03D73BEB6F089B56CFFC3059A /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		BE11E4E0851EEE414BF49D7293E90B39 /* EMTextMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMTextMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMTextMessageBody.h; sourceTree = "<group>"; };
-		C04EC81C5A5CD68617954D24FFA926CE /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		BB39B251D32AC1D2F62E919A7774C21C /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		BEB708772A53CC025E9E6ECD35F96EC2 /* ICallManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICallManager.h; path = EaseMobSDK/include/CallService/EMCallManager/ICallManager.h; sourceTree = "<group>"; };
+		BFF0B6A9DDB37F34B7B56B0E276F6CFB /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C030C7F9B2C28353564DE616F74480C4 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		C06EDE4B5363BC3405B9388E6DCB7848 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		C2B240D99C3FC6A7DC6C66A2434CA799 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		C4753E75DAC9F6D99D3C5D23BF78E991 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		C67F75B5EE7DF59B689C88A90B958F4A /* EMGroupStyleSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroupStyleSetting.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMGroupStyleSetting.h; sourceTree = "<group>"; };
-		C822D8EDD724F13C580778795EA3A019 /* EMChatManagerDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerDefs.h; path = EaseMobSDK/include/ChatService/EMChatManager/EMChatManagerDefs.h; sourceTree = "<group>"; };
-		CA3772DB4714BE40BB056478BD3BB1C7 /* EMDeviceManagerDelegateBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMDeviceManagerDelegateBase.h; path = EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerDelegateBase.h; sourceTree = "<group>"; };
-		CBB150C6812144FF290D99FD0B2830F4 /* EMDeviceManagerDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMDeviceManagerDefs.h; path = EaseMobSDK/include/Utility/EMDeviceManager/EMDeviceManagerDefs.h; sourceTree = "<group>"; };
-		CCA5A07499507CE767C51103BA831E28 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		CFE4858EBC2997DC7D2657EF8FA05073 /* OpenGLView20.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenGLView20.h; path = EaseMobSDK/include/CallService/EMCallManager/types/OpenGLView20.h; sourceTree = "<group>"; };
-		D4FEF86DC534E0DBBE4896D175D25578 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		D5EFDD905CB48C2FFC3D3B74ED0EE109 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		D64A31BDC6E35A903D21F95C084CA19D /* IChatManagerChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerChat.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerChat.h; sourceTree = "<group>"; };
-		D72CA481FBF05057A7CA0CAF18636F61 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		D929F2483696A499B6ADED0E3C6A3940 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		DBE2254E662720486E55705243A4A599 /* ICallManagerBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICallManagerBase.h; path = EaseMobSDK/include/CallService/EMCallManager/internal/ICallManagerBase.h; sourceTree = "<group>"; };
-		DE33B8D4FA8B709DEEA0DD3E0C0DF6FB /* EMGroupManagerDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroupManagerDefs.h; path = EaseMobSDK/include/ChatService/EMChatManager/EMGroupManagerDefs.h; sourceTree = "<group>"; };
-		E36ECFECB6D10ED5050A8E57B70AC274 /* EMConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMConversation.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMConversation.h; sourceTree = "<group>"; };
-		E39A2702EE31E413BFC2AEBA89159901 /* EMCommandMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCommandMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMCommandMessageBody.h; sourceTree = "<group>"; };
-		E42EAD4D66965864068BD2DEC798E8FE /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		E5DD9CA18F83DFA30C50889CB0AEBD74 /* EMVideoMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMVideoMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMVideoMessageBody.h; sourceTree = "<group>"; };
-		E646C7D73FA85B55A730C11AE3E0050B /* EMChatManagerChatDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerChatDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerChatDelegate.h; sourceTree = "<group>"; };
-		E66873494370CAAA5F335867C3BD9760 /* EMChatroom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatroom.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatroom.h; sourceTree = "<group>"; };
-		E8D682030CA6EBF97976E1878A706C61 /* IEMFileMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMFileMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/IEMFileMessageBody.h; sourceTree = "<group>"; };
-		EFF4D6A8BDE377270D4692C0CAE39791 /* IEMChatProgressDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMChatProgressDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatProgressDelegate.h; sourceTree = "<group>"; };
-		F0EF10FA5C3B6C7EFB0D56EA290D08F4 /* IEMChatObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMChatObject.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatObject.h; sourceTree = "<group>"; };
-		F10C646E17FA130A904E22BD134CFC31 /* IChatManagerChatroom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerChatroom.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerChatroom.h; sourceTree = "<group>"; };
-		F18C7A8B31C9BDE07A44CB3F2A4659AD /* EMChatManagerDelegateBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerDelegateBase.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerDelegateBase.h; sourceTree = "<group>"; };
-		F232B7E3CC670B127CA11D15737350FE /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		F495CCEF270B4D5BFA2A85F723A68277 /* IOpenGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IOpenGLView.h; path = EaseMobSDK/include/CallService/EMCallManager/types/IOpenGLView.h; sourceTree = "<group>"; };
-		F4B7364A57C59CF90490282B8F3C1F0C /* IEMChatCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMChatCryptor.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatCryptor.h; sourceTree = "<group>"; };
-		F81250E2C6192D160A6AFAC37C27C713 /* EMBuddy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMBuddy.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMBuddy.h; sourceTree = "<group>"; };
-		F8E78150B57AC1816F06C5C16D3BC65F /* EMGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroup.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMGroup.h; sourceTree = "<group>"; };
-		F90D1403F8D619F04E3973AE9AC346EA /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		FA6A7053342D1EEC9A5828659260A14F /* IChatManagerRobot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerRobot.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerRobot.h; sourceTree = "<group>"; };
-		FCFDD05A59CA893110E598CA58F4406A /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		C84452B603EDD8642040EEF5E58D6BFA /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		C8B1BC661791A6943B305EE9639161CF /* OpenGLView20.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpenGLView20.h; path = EaseMobSDK/include/CallService/EMCallManager/types/OpenGLView20.h; sourceTree = "<group>"; };
+		CA87FAC013DEF9FCDAE11A2FBC94FBBE /* EaseMob+CallService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EaseMob+CallService.h"; path = "EaseMobSDK/include/CallService/EMCallManager/EaseMob+CallService.h"; sourceTree = "<group>"; };
+		CB76D9355B9F26BA55C7B40B1FE24A16 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		CE621D7D6FE1E1C94948BE9183F2DF61 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CEF79738C135D67C0BD07E38C70DB2DA /* EMRobot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMRobot.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMRobot.h; sourceTree = "<group>"; };
+		CF220D140154F62ABA2EC141504B756E /* EMChatManagerEncryptionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerEncryptionDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerEncryptionDelegate.h; sourceTree = "<group>"; };
+		CF8322D2012B7A328E3613E84144F492 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		D043AE2D24732F8047CE28CA7EC771DD /* EMDeviceManagerDelegateBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMDeviceManagerDelegateBase.h; path = EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerDelegateBase.h; sourceTree = "<group>"; };
+		D06B556CF8222FB9D39C3E419A8DE57A /* IDeviceManagerBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDeviceManagerBase.h; path = EaseMobSDK/include/Utility/EMDeviceManager/internal/IDeviceManagerBase.h; sourceTree = "<group>"; };
+		D30CCD9E7173D08504EA48A8B60A8210 /* IChatManagerLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerLogin.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerLogin.h; sourceTree = "<group>"; };
+		D3F8060C4C07BB36CD0240E8E1A289F5 /* EMImageMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMImageMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMImageMessageBody.h; sourceTree = "<group>"; };
+		D526F0FBE66DA8F926A5E944CE65FF17 /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		D5514C0CE70CB6F2034E42CEFC469BD0 /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		D56851ECCB80D8B180F5D4294517E9CF /* EMLocationMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMLocationMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMLocationMessageBody.h; sourceTree = "<group>"; };
+		D5BD12D885A149CE583EF71B33ED45D9 /* EMTextMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMTextMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMTextMessageBody.h; sourceTree = "<group>"; };
+		D6DF7FB06044550117B03ADA7E352671 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		D774C7718DD84457CCE5235D3D3FA356 /* EMFileMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMFileMessageBody.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMFileMessageBody.h; sourceTree = "<group>"; };
+		D8129BDDFDE095ED59A252DAFAA73A37 /* EMChatManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerDelegate.h; sourceTree = "<group>"; };
+		DB86E69B8044A8FA1B1A9146DF6CC18D /* IEMChatCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMChatCryptor.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatCryptor.h; sourceTree = "<group>"; };
+		DBC1129F50308A259AA2BD306455EE61 /* IEMChatObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMChatObject.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatObject.h; sourceTree = "<group>"; };
+		DC228BD4E36A2137343E9BD2414E0DDE /* EMChatManagerLoginDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerLoginDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerLoginDelegate.h; sourceTree = "<group>"; };
+		DC790EA041B9A6F1254FF9155FAF7F38 /* IChatManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManager.h; path = EaseMobSDK/include/ChatService/EMChatManager/IChatManager.h; sourceTree = "<group>"; };
+		DE6F8291901F5D2A9E280565027CF823 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		DE7C044FF88DBACE06412141DF1E2E99 /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		E19F28C3572B4445246D954DCD1ECBD5 /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
+		E51B180F70AB470FFB5640737E507C78 /* IChatManagerSettingOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerSettingOptions.h; path = EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerSettingOptions.h; sourceTree = "<group>"; };
+		E6D1806DBF00F9EE456058DAA805109A /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		E75DEEB83F5178C8979F273885B797D2 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JSONModel.m"; path = "JSONModel/JSONModelCategories/NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		E7E81139F02370F080664C3DE67632BE /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		E910AA5FC7012C8E3102B115A53EDD47 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+JSONModel.h"; path = "JSONModel/JSONModelCategories/NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		EACAF66115D925B5A54DC988120EBA63 /* IDeviceManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDeviceManagerDelegate.h; path = EaseMobSDK/include/Utility/EMDeviceManager/delegates/IDeviceManagerDelegate.h; sourceTree = "<group>"; };
+		EB1805A3F0334312E9CBD97BED6082FE /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		EDB33D5D68C2D31988C505466D65B4DA /* EMConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMConversation.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMConversation.h; sourceTree = "<group>"; };
+		F0472C99BBFC6E1E46D4BCA4AE63D00B /* EMGroupManagerDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroupManagerDefs.h; path = EaseMobSDK/include/ChatService/EMChatManager/EMGroupManagerDefs.h; sourceTree = "<group>"; };
+		F061F5ACFC83FD45A27A1FF5C47BCE20 /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		F5A23F1CE2B13D57E99055A88C0B9450 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		FD168724941D750E16CFB7584495D4EC /* EMNetworkMonitorDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMNetworkMonitorDefs.h; path = EaseMobSDK/include/Utility/EMNetworkMonitorDefs.h; sourceTree = "<group>"; };
+		FD33F6B5F87A7B3E111262A0505558C5 /* EMChatText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatText.h; path = EaseMobSDK/include/ChatService/EMChatManager/types/EMChatText.h; sourceTree = "<group>"; };
+		FDC3A5C1117CF3B3EEDE9004123AAC28 /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		FEE6A9A46EA45F3D9A3118FA8D53C56B /* IChatManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IChatManagerDelegate.h; path = EaseMobSDK/include/ChatService/EMChatManager/delegates/IChatManagerDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		331D0E510D700D7CEC5908DF3E865D29 /* Frameworks */ = {
+		429DC070F3DDEF05AC68761F90D0CC68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D722DF12F728BCCE63D2105CF296EEB8 /* Foundation.framework in Frameworks */,
+				34E2BEC400CCC9FF7A00AB0832EA0628 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB932C7244160CC464D5F7E2A9713D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216E5A12ACFD64B84DC1A2E253336D9B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,15 +307,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0C06039B88D66C87ED5B085BD68E345E /* Serialization */ = {
+		0E2440253CEA051F9E589DD75AB03613 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				38BC54BB95B99AB5F6E7E680B9D590DC /* AFURLRequestSerialization.h */,
-				17AD8B514FD48D14007919C467E74D8C /* AFURLRequestSerialization.m */,
-				B5B07DBB7E6398123B496C04CCBC41E9 /* AFURLResponseSerialization.h */,
-				8E6B8282D0BDD21BF473D236A4C5C44B /* AFURLResponseSerialization.m */,
+				F5A23F1CE2B13D57E99055A88C0B9450 /* AFNetworkActivityIndicatorManager.h */,
+				549E8C1665FC24FF0C76FA0D1E50412C /* AFNetworkActivityIndicatorManager.m */,
+				C84452B603EDD8642040EEF5E58D6BFA /* UIActivityIndicatorView+AFNetworking.h */,
+				1890A1F3997F92ECA97CA8D29C78BB15 /* UIActivityIndicatorView+AFNetworking.m */,
+				0809A2B49E5DF16A633AF2D897ADFC57 /* UIAlertView+AFNetworking.h */,
+				0A4FBB16770BE2DED300DDDA75BC0D44 /* UIAlertView+AFNetworking.m */,
+				3FAE0E38EBF49A383E3219E5A7AFA670 /* UIButton+AFNetworking.h */,
+				69921CD80D4407E51C21E9AA7C70C2B3 /* UIButton+AFNetworking.m */,
+				6A5EB5F3795863DBC7A9C419B9E35F59 /* UIImage+AFNetworking.h */,
+				A5B3F910FCC8EB025C5683BEDAC4A288 /* UIImageView+AFNetworking.h */,
+				C06EDE4B5363BC3405B9388E6DCB7848 /* UIImageView+AFNetworking.m */,
+				EB1805A3F0334312E9CBD97BED6082FE /* UIKit+AFNetworking.h */,
+				D6DF7FB06044550117B03ADA7E352671 /* UIProgressView+AFNetworking.h */,
+				45CC13CB863854D5742AB71BD03FDDEB /* UIProgressView+AFNetworking.m */,
+				CF8322D2012B7A328E3613E84144F492 /* UIRefreshControl+AFNetworking.h */,
+				0C652430EA41127F19CDEAAC1C63AA21 /* UIRefreshControl+AFNetworking.m */,
+				993A7F7627AF67015986F0F3DD2A03D7 /* UIWebView+AFNetworking.h */,
+				554C0689FC62B1FA147E9ADFF82537C0 /* UIWebView+AFNetworking.m */,
 			);
-			name = Serialization;
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		0FCBAEF0DD6914941C318F5F2FA4058A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7EE5E775EAC283EC53A6BC0AEE0B7F2F /* EaseMob.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
@@ -263,116 +348,75 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3FEFB56C9603D9DDB070BA7A9A30AD49 /* Resources */ = {
+		240BECB2B4405B074EEE809F0CADF22E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				493AA40A81F090E520721CEC76957622 /* EaseMob.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		5DD3F5FC184453A435DA4A0E5F19B2B6 /* EaseMobSDK */ = {
-			isa = PBXGroup;
-			children = (
-				5DBB63BEDF4393619EDC721367EEA36E /* commonDefs.h */,
-				429832F0A5B51AFF5FC6861B7C0FC029 /* EaseMob.h */,
-				BCF6D8C2C38022E4C4B7B21F7BFF305E /* EaseMob.h */,
-				8D104701594005B0A40344ACB9A6480A /* EaseMob+CallService.h */,
-				9EE82C17C6F185933AA08469194E8456 /* EaseMobHeaders.h */,
-				5FB293864E28F2EB45201B9B7DBBA9E6 /* EaseMobHeaders.h */,
-				F81250E2C6192D160A6AFAC37C27C713 /* EMBuddy.h */,
-				8D62BD824C6A996BFD579641E08DB740 /* EMCallManagerCallDelegate.h */,
-				3260EF8AEE9B1AA9AD692653541E552C /* EMCallManagerDelegate.h */,
-				47392A71722CFF968EB5C7DFBDDD814D /* EMCallServiceDefs.h */,
-				AAF0B414BD801A832580B51FEE6510E8 /* EMCallSession.h */,
-				3B87F6DC237C28F3874269AE49D47838 /* EMChatCommand.h */,
-				708AE9A316D1F85F063CCD1B69004211 /* EMChatFile.h */,
-				4194098A2B23EB61B4936BD30CC71EFC /* EMChatImage.h */,
-				1FC221CA6122FBE6AED2550E7C9C5974 /* EMChatLocation.h */,
-				150FCF7650FD9DEA77ADB0DFBE84776F /* EMChatManagerBuddyDelegate.h */,
-				E646C7D73FA85B55A730C11AE3E0050B /* EMChatManagerChatDelegate.h */,
-				B6A0CEC2174731F628D7B1F352D66BE0 /* EMChatManagerChatroomDelegate.h */,
-				C822D8EDD724F13C580778795EA3A019 /* EMChatManagerDefs.h */,
-				88799BA973BC29138A885DBF58E155C5 /* EMChatManagerDelegate.h */,
-				F18C7A8B31C9BDE07A44CB3F2A4659AD /* EMChatManagerDelegateBase.h */,
-				45A0D8829179123D44869A04586C514A /* EMChatManagerEncryptionDelegate.h */,
-				A3746A46D46E94085E479204C9EB8DFF /* EMChatManagerGroupDelegate.h */,
-				6967C7B41AEA410B5A1B2E074926BFD3 /* EMChatManagerLoginDelegate.h */,
-				7F8334EA4D728AE7F4C3C3349DD401F4 /* EMChatManagerPushNotificationDelegate.h */,
-				6C1ED9C3828C04E4C8E1C1EAB3903CB1 /* EMChatManagerUtilDelegate.h */,
-				E66873494370CAAA5F335867C3BD9760 /* EMChatroom.h */,
-				72FA24F210F6963F85BBD3BC6F368B9B /* EMChatText.h */,
-				20CFE909E407B5939BFFE7FE5C8D0D06 /* EMChatVideo.h */,
-				1F7629D09F803F567426C25DB158ED53 /* EMChatVoice.h */,
-				E39A2702EE31E413BFC2AEBA89159901 /* EMCommandMessageBody.h */,
-				E36ECFECB6D10ED5050A8E57B70AC274 /* EMConversation.h */,
-				AC9EC5AD9F3B1DE6D2B1DDD89D35EAE2 /* EMCursorResult.h */,
-				CBB150C6812144FF290D99FD0B2830F4 /* EMDeviceManagerDefs.h */,
-				59BA2133C78F44476D2B3E2626675ED9 /* EMDeviceManagerDelegate.h */,
-				CA3772DB4714BE40BB056478BD3BB1C7 /* EMDeviceManagerDelegateBase.h */,
-				88A89D4790880D5070771E0AD3B3C0BB /* EMDeviceManagerNetworkDelegate.h */,
-				292E21648B7E7B1381F33D07133A92E1 /* EMError.h */,
-				832B973F4524695926581EBD0FDCEBFE /* EMErrorDefs.h */,
-				4B168D8BE519A640B3EEBB94C88A8FD3 /* EMFileMessageBody.h */,
-				F8E78150B57AC1816F06C5C16D3BC65F /* EMGroup.h */,
-				DE33B8D4FA8B709DEEA0DD3E0C0DF6FB /* EMGroupManagerDefs.h */,
-				C67F75B5EE7DF59B689C88A90B958F4A /* EMGroupStyleSetting.h */,
-				BCE90402B986C90F90EBEB1E5060B845 /* EMImageMessageBody.h */,
-				70177F6552595428963D53DE53414B6B /* EMLocationMessageBody.h */,
-				4AB88E44ED245D099DDF22046676A4D1 /* EMMessage.h */,
-				A6AF352D4F09E7EA655F0FF021429BC8 /* EMNetworkMonitorDefs.h */,
-				70AB76142EC635876CC3AC05433DE15A /* EMPushManagerDefs.h */,
-				98D36761E306CF6AFC958EE2A631E8AC /* EMPushNotificationOptions.h */,
-				878FD4A37FDAD0630D450BFB9ED624F2 /* EMReceipt.h */,
-				572ADD8B80B600252A66A2C434EA48F1 /* EMReceiptBase.h */,
-				0798980FCDE477E84D1E2C77BB5F7CB7 /* EMRobot.h */,
-				BE11E4E0851EEE414BF49D7293E90B39 /* EMTextMessageBody.h */,
-				E5DD9CA18F83DFA30C50889CB0AEBD74 /* EMVideoMessageBody.h */,
-				705FC0A2B203153B38F1F3F9BB78D1DA /* EMVoiceMessageBody.h */,
-				79BA0D9401C70A458C1B8EAA7FCA4C46 /* ICallManager.h */,
-				DBE2254E662720486E55705243A4A599 /* ICallManagerBase.h */,
-				643FFDEEC7CDBC6CB6E1287EEEE194DD /* ICallManagerCall.h */,
-				4F6756B447657E12C80A5AA6D0873180 /* IChatImageOptions.h */,
-				5C50D2CED99A5C72CAC3BC17E4A15C94 /* IChatManager.h */,
-				420F579C1B34CE9F7563704B8F69DE57 /* IChatManagerBase.h */,
-				4B9AA7C7CA2AEB24F0ED53E7A80E3C2D /* IChatManagerBuddy.h */,
-				D64A31BDC6E35A903D21F95C084CA19D /* IChatManagerChat.h */,
-				F10C646E17FA130A904E22BD134CFC31 /* IChatManagerChatroom.h */,
-				21E20FFBDB7D9453F92A70BB98CA0581 /* IChatManagerConversation.h */,
-				BB1D319B0C0A92559571D53A89E302FB /* IChatManagerDelegate.h */,
-				3D8383AA003BF5E915259C8E2EAFEC2F /* IChatManagerEncryption.h */,
-				4E075AB1D20722CC125A60991BDF3B1F /* IChatManagerGroup.h */,
-				56FBDEF5E9AD91EBEA2044CA52223E44 /* IChatManagerLogin.h */,
-				45E040999279B8E531AB78A7E35B5021 /* IChatManagerPushNotification.h */,
-				FA6A7053342D1EEC9A5828659260A14F /* IChatManagerRobot.h */,
-				4B2FEE1E50A6952358138968312452F9 /* IChatManagerSettingOptions.h */,
-				A669CC786AFADD00DF4DA45F26CA8232 /* IChatManagerUtil.h */,
-				B59EDE240B774F6E6B8E4666C6A25735 /* IDeviceManager.h */,
-				268B28A94B51DADD217E29905046292E /* IDeviceManagerBase.h */,
-				3FFE306875E3C25DD70CA455E6A7CD07 /* IDeviceManagerDelegate.h */,
-				F4B7364A57C59CF90490282B8F3C1F0C /* IEMChatCryptor.h */,
-				24BF5E1CC17B88F037F75C86A3ABD404 /* IEMChatFile.h */,
-				F0EF10FA5C3B6C7EFB0D56EA290D08F4 /* IEMChatObject.h */,
-				EFF4D6A8BDE377270D4692C0CAE39791 /* IEMChatProgressDelegate.h */,
-				E8D682030CA6EBF97976E1878A706C61 /* IEMFileMessageBody.h */,
-				A8CE3A8CA0DC335E2B4288BC22682887 /* IEMMessageBody.h */,
-				F495CCEF270B4D5BFA2A85F723A68277 /* IOpenGLView.h */,
-				CFE4858EBC2997DC7D2657EF8FA05073 /* OpenGLView20.h */,
-				C189B66F1B40A6792894AA9E7A8773BA /* Frameworks */,
-				3FEFB56C9603D9DDB070BA7A9A30AD49 /* Resources */,
-			);
-			path = EaseMobSDK;
-			sourceTree = "<group>";
-		};
-		71777EBA96A57C88961CDEBCDDED9A4D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D929F2483696A499B6ADED0E3C6A3940 /* AFNetworking.xcconfig */,
-				3C17CF1974D3D99A35D3CF416A84949B /* AFNetworking-dummy.m */,
-				0107ABFC013D49C1D2BC785FDFE879FF /* AFNetworking-prefix.pch */,
+				92B28402B1E367A6E8B472EE1382A727 /* AFNetworking.xcconfig */,
+				17F8DA91DBD80345D411841DA4DC5B5F /* AFNetworking-dummy.m */,
+				CB76D9355B9F26BA55C7B40B1FE24A16 /* AFNetworking-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		2576B7D85EA744B922C85CF481D96BF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94446CAD7B001EC31E770DC2872403BD /* libAFNetworking.a */,
+				42C8FA848CE1F104ABC76313837A9236 /* libJSONModel.a */,
+				4E4101C61F31BA21621C4739E6AA7E21 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B3C5927F5C90EA0B5D8DCA73885A141 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				4E02F2463C41695BAFF81F720B0FFA0F /* AFHTTPRequestOperation.h */,
+				C030C7F9B2C28353564DE616F74480C4 /* AFHTTPRequestOperation.m */,
+				0512660ADBD1AE610E963EB9BE69D471 /* AFHTTPRequestOperationManager.h */,
+				E7E81139F02370F080664C3DE67632BE /* AFHTTPRequestOperationManager.m */,
+				44D598D83D14B4B4760B0FED5E7F9D75 /* AFURLConnectionOperation.h */,
+				640DD3F597F190A6DA4A5A82304458B5 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		4AFFC08D30E943B89D3932DAD67A0264 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E19F28C3572B4445246D954DCD1ECBD5 /* JSONModel.xcconfig */,
+				8F5C2ED14199AA385E234DF54B3BE3E1 /* JSONModel-dummy.m */,
+				A8F49A5D0FC18D5FFD54636A7020F613 /* JSONModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		72900A9779973252DDCF061D9D9F7216 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				BB39B251D32AC1D2F62E919A7774C21C /* AFHTTPSessionManager.h */,
+				09FFA7FFADAB7017BAE8EA4D3CF04CE8 /* AFHTTPSessionManager.m */,
+				A57DBC245D778469C0C07B5535336BDA /* AFURLSessionManager.h */,
+				8D52AE7D7258412C28199B78B1D6BBD0 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		7AE7A8229F17750E1564DFEB98A32F29 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				274A472574FF782FB8BEC5CA2A965F5A /* AFNetworking.h */,
+				2B3C5927F5C90EA0B5D8DCA73885A141 /* NSURLConnection */,
+				72900A9779973252DDCF061D9D9F7216 /* NSURLSession */,
+				F7C79F37435B40B2F5CAA86874F9C512 /* Reachability */,
+				887564E9E72D3BD7375D9842F029D825 /* Security */,
+				9C18A53ECEF37F98D7F511BEBDADA740 /* Serialization */,
+				240BECB2B4405B074EEE809F0CADF22E /* Support Files */,
+				0E2440253CEA051F9E589DD75AB03613 /* UIKit */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -380,39 +424,42 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
-				B62512F543B1138EBEC6C013EAB19185 /* Pods */,
-				F7A3985FBE51CABA729CDDE7D54E719C /* Products */,
+				C8FD1DF88DA27A1FED35E1D8A180A1C3 /* Pods */,
+				2576B7D85EA744B922C85CF481D96BF2 /* Products */,
 				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		85708B626A0E28B8C850797E462CB416 /* Reachability */ = {
+		887564E9E72D3BD7375D9842F029D825 /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				BDB68FE03D73BEB6F089B56CFFC3059A /* AFNetworkReachabilityManager.h */,
-				8B322F6930CB495FA6187DC84C7CF0E5 /* AFNetworkReachabilityManager.m */,
-			);
-			name = Reachability;
-			sourceTree = "<group>";
-		};
-		8FC1FE4EC566D4FD521D7EDE68FBC27B /* NSURLSession */ = {
-			isa = PBXGroup;
-			children = (
-				C04EC81C5A5CD68617954D24FFA926CE /* AFHTTPSessionManager.h */,
-				6EA14E959C2CD4E2D736B3E5B0EE84D0 /* AFHTTPSessionManager.m */,
-				7E6440C53C032040AF76DDA81706E893 /* AFURLSessionManager.h */,
-				888A63582F4BF189706C6557D5CCCF3F /* AFURLSessionManager.m */,
-			);
-			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		90B6632EA3501796365C7BCB10F30EA6 /* Security */ = {
-			isa = PBXGroup;
-			children = (
-				98EEEF5A2B4C170D96FE36410803CEFD /* AFSecurityPolicy.h */,
-				C4753E75DAC9F6D99D3C5D23BF78E991 /* AFSecurityPolicy.m */,
+				CE621D7D6FE1E1C94948BE9183F2DF61 /* AFSecurityPolicy.h */,
+				3DFEAFAB8A6039FDEEC6A0CC29BF5A05 /* AFSecurityPolicy.m */,
 			);
 			name = Security;
+			sourceTree = "<group>";
+		};
+		8ADCDAD0FCAB9DC84FAB5EA1E87CD1BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D922031249381D07D4B916F26913DAE /* libEaseMobClientSDKLite_arm64.a */,
+				3F310BDF530AC0CFD5CF038D459BB8D6 /* libEaseMobClientSDKLite_armv7.a */,
+				4A57089C4A624E6D24E69842F600CC51 /* libEaseMobClientSDKLite_armv7s.a */,
+				01650843952D8EE0AF881813B2903CE9 /* libEaseMobClientSDKLite_i386.a */,
+				1B0EB208634F0AD4CEC8883FD7BC250D /* libEaseMobClientSDKLite_x86_64.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C18A53ECEF37F98D7F511BEBDADA740 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				692083EB31F56D79B7190F16DE9B0513 /* AFURLRequestSerialization.h */,
+				7023A7E9BE621AA3466DC95F59DCAABD /* AFURLRequestSerialization.m */,
+				E6D1806DBF00F9EE456058DAA805109A /* AFURLResponseSerialization.h */,
+				4C799A795316CA2602EAC53AF8197A1B /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
 			sourceTree = "<group>";
 		};
 		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
@@ -430,87 +477,145 @@
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		B62512F543B1138EBEC6C013EAB19185 /* Pods */ = {
+		C335A4F9C5BCDFD9B2473AD1943E9D1D /* EaseMobSDK */ = {
 			isa = PBXGroup;
 			children = (
-				CA7BEB380279B6EF74E1B0CB735A2419 /* AFNetworking */,
-				5DD3F5FC184453A435DA4A0E5F19B2B6 /* EaseMobSDK */,
+				7A626A4D17EE7615C4D9031EA9DB33DC /* commonDefs.h */,
+				B3B406D9BF62F0C9F58D4F852F80C559 /* EaseMob.h */,
+				B1034A131E737684AC23EEC70DB14B0B /* EaseMob.h */,
+				CA87FAC013DEF9FCDAE11A2FBC94FBBE /* EaseMob+CallService.h */,
+				2D419453F4F69E0898E2A302269B98D1 /* EaseMobHeaders.h */,
+				8B8098A5DCA80D30D38EB65F6ADDE830 /* EaseMobHeaders.h */,
+				3155E6959C3E2AA2A5E72F8228695546 /* EMBuddy.h */,
+				188DBADC5272BFB3FD7217842B8B06BA /* EMCallManagerCallDelegate.h */,
+				21A06EE3F7311CE72D9EA540886768C7 /* EMCallManagerDelegate.h */,
+				AE0917415867825801D7DF8CC0E69602 /* EMCallServiceDefs.h */,
+				53DE5D85E9009F4D91F0FF69ECABB84E /* EMCallSession.h */,
+				81E6F7DE739CB0555A3390C5A8860342 /* EMChatCommand.h */,
+				57DF13049B6848304889BEE39D26797E /* EMChatFile.h */,
+				7CE8A43174021A373378CBE6C5B0066B /* EMChatImage.h */,
+				91A2A5F15D2F5EB5B3D20E79BFB8175C /* EMChatLocation.h */,
+				90378E60561B46D4A246B747F7349254 /* EMChatManagerBuddyDelegate.h */,
+				11C2CF89F3100BFF491D2394963215EC /* EMChatManagerChatDelegate.h */,
+				2E16420A20648A7898F1C1CE664E7E5B /* EMChatManagerChatroomDelegate.h */,
+				1D4E3935BA1CAADC8B34222511A3048A /* EMChatManagerDefs.h */,
+				D8129BDDFDE095ED59A252DAFAA73A37 /* EMChatManagerDelegate.h */,
+				A8502CE51B317914C69037B75FA19325 /* EMChatManagerDelegateBase.h */,
+				CF220D140154F62ABA2EC141504B756E /* EMChatManagerEncryptionDelegate.h */,
+				62A71A605D48B715EBE83A729B5A78AD /* EMChatManagerGroupDelegate.h */,
+				DC228BD4E36A2137343E9BD2414E0DDE /* EMChatManagerLoginDelegate.h */,
+				5D1508AC33E21672B0DDABB92BC32CAD /* EMChatManagerPushNotificationDelegate.h */,
+				181A9113130DCDB7BAFC9C58B8E9B0A6 /* EMChatManagerUtilDelegate.h */,
+				7B52414BDA127350873D50BADACA65CC /* EMChatroom.h */,
+				FD33F6B5F87A7B3E111262A0505558C5 /* EMChatText.h */,
+				1F706A87783C6BB3B8825F8A4513FEBC /* EMChatVideo.h */,
+				034EE7C8CDF9C6A0C491F3AF50D573B5 /* EMChatVoice.h */,
+				93DEDFF2019CA7BC6D60134F87C42E46 /* EMCommandMessageBody.h */,
+				EDB33D5D68C2D31988C505466D65B4DA /* EMConversation.h */,
+				934B93F15DED35FE75676B59BDD2EFD2 /* EMCursorResult.h */,
+				47AB44871FDD7886DEFBBA1A39545ABD /* EMDeviceManagerDefs.h */,
+				87D60D6C9ECF73FD0348E056F29F820D /* EMDeviceManagerDelegate.h */,
+				D043AE2D24732F8047CE28CA7EC771DD /* EMDeviceManagerDelegateBase.h */,
+				2FFDB08495B64FE3D1A39964C9AF0592 /* EMDeviceManagerNetworkDelegate.h */,
+				ABECBFC6FAA010F19F4B24D8759F1CE2 /* EMError.h */,
+				7E13C6E39A98E5DF90FA94CE7D09996A /* EMErrorDefs.h */,
+				D774C7718DD84457CCE5235D3D3FA356 /* EMFileMessageBody.h */,
+				AEB9A0F8BEBC3B2F1C0402DE8BBF5C42 /* EMGroup.h */,
+				F0472C99BBFC6E1E46D4BCA4AE63D00B /* EMGroupManagerDefs.h */,
+				0277E06D91BF424B3186D37B88F79871 /* EMGroupStyleSetting.h */,
+				D3F8060C4C07BB36CD0240E8E1A289F5 /* EMImageMessageBody.h */,
+				D56851ECCB80D8B180F5D4294517E9CF /* EMLocationMessageBody.h */,
+				4EF38161E44DCAE383C5E847B054D646 /* EMMessage.h */,
+				FD168724941D750E16CFB7584495D4EC /* EMNetworkMonitorDefs.h */,
+				492B8ED4130EAC011B86F1655A8291D1 /* EMPushManagerDefs.h */,
+				81B199C5B02F71BF7A6484348F4EACDC /* EMPushNotificationOptions.h */,
+				3C07E4F782802168275FD0A9F934CDCE /* EMReceipt.h */,
+				A78C5C8713334CC1C237ED852DFDFB2A /* EMReceiptBase.h */,
+				CEF79738C135D67C0BD07E38C70DB2DA /* EMRobot.h */,
+				D5BD12D885A149CE583EF71B33ED45D9 /* EMTextMessageBody.h */,
+				4699FCF1E19430AD2E2BCEC5AFBA1922 /* EMVideoMessageBody.h */,
+				30D6C3B0FFEBC87CDF2C1A2CA4C09AF0 /* EMVoiceMessageBody.h */,
+				BEB708772A53CC025E9E6ECD35F96EC2 /* ICallManager.h */,
+				8301DCA8A726A634B9BBEE84458279F8 /* ICallManagerBase.h */,
+				36F321A0B2FB687251536F5DE068D3AB /* ICallManagerCall.h */,
+				5F5F1B7DA3F820D51E0B015F98E7E17B /* IChatImageOptions.h */,
+				DC790EA041B9A6F1254FF9155FAF7F38 /* IChatManager.h */,
+				53999E10762C827FBA9575D5A8C41C40 /* IChatManagerBase.h */,
+				0FF79C9A91493E4D4FFAD89F5CA7F414 /* IChatManagerBuddy.h */,
+				396051F2F5520ACA516689EBCCA2F00C /* IChatManagerChat.h */,
+				9CDD3A059553668357A2CE55E5411571 /* IChatManagerChatroom.h */,
+				860AD26B5033A915D1979E307480DEF7 /* IChatManagerConversation.h */,
+				FEE6A9A46EA45F3D9A3118FA8D53C56B /* IChatManagerDelegate.h */,
+				85FE41FE884E33F10307BB806728108B /* IChatManagerEncryption.h */,
+				3628F5DB2359FE063841AFE1402A31B3 /* IChatManagerGroup.h */,
+				D30CCD9E7173D08504EA48A8B60A8210 /* IChatManagerLogin.h */,
+				654E0A449F969770520DF2C372D5F6B1 /* IChatManagerPushNotification.h */,
+				53B343DC00E32C0D81DD59B0A82C1668 /* IChatManagerRobot.h */,
+				E51B180F70AB470FFB5640737E507C78 /* IChatManagerSettingOptions.h */,
+				319155641E733C442890C55B063D9EC3 /* IChatManagerUtil.h */,
+				8275B4EE23B46ADA3637560191B14F96 /* IDeviceManager.h */,
+				D06B556CF8222FB9D39C3E419A8DE57A /* IDeviceManagerBase.h */,
+				EACAF66115D925B5A54DC988120EBA63 /* IDeviceManagerDelegate.h */,
+				DB86E69B8044A8FA1B1A9146DF6CC18D /* IEMChatCryptor.h */,
+				AB2A0B551BDAAA142DB7E566D4137B10 /* IEMChatFile.h */,
+				DBC1129F50308A259AA2BD306455EE61 /* IEMChatObject.h */,
+				37BC5810FE1D207D5FB5174FC72B7EBB /* IEMChatProgressDelegate.h */,
+				9DF11A5E0053A6C9A4160F268EF45244 /* IEMFileMessageBody.h */,
+				B630F428B1328343F696A7DF3F2D4D1D /* IEMMessageBody.h */,
+				18F1A6344D759961812038256A4EAF97 /* IOpenGLView.h */,
+				C8B1BC661791A6943B305EE9639161CF /* OpenGLView20.h */,
+				8ADCDAD0FCAB9DC84FAB5EA1E87CD1BF /* Frameworks */,
+				0FCBAEF0DD6914941C318F5F2FA4058A /* Resources */,
+			);
+			path = EaseMobSDK;
+			sourceTree = "<group>";
+		};
+		C8FD1DF88DA27A1FED35E1D8A180A1C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AE7A8229F17750E1564DFEB98A32F29 /* AFNetworking */,
+				C335A4F9C5BCDFD9B2473AD1943E9D1D /* EaseMobSDK */,
+				D540CFCF96F8119AE8C4A6C24003BF56 /* JSONModel */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C189B66F1B40A6792894AA9E7A8773BA /* Frameworks */ = {
+		D540CFCF96F8119AE8C4A6C24003BF56 /* JSONModel */ = {
 			isa = PBXGroup;
 			children = (
-				AAD3B50365C4B7FD5ADC3A23DA2667EB /* libEaseMobClientSDKLite_arm64.a */,
-				7AC376826D5129378E00DE42F58EFA91 /* libEaseMobClientSDKLite_armv7.a */,
-				6E6DB095268903E739415A22B796F2B0 /* libEaseMobClientSDKLite_armv7s.a */,
-				2672CAAA8C4694432746CD68B7FFF8B3 /* libEaseMobClientSDKLite_i386.a */,
-				8D0298FB5C62CA1FE112E166476B2043 /* libEaseMobClientSDKLite_x86_64.a */,
+				4573BF7D28A6C3CA31E8775ED6239B5C /* JSONAPI.h */,
+				370F4D86BC2A7E0B80615D1ECE49E325 /* JSONAPI.m */,
+				FDC3A5C1117CF3B3EEDE9004123AAC28 /* JSONHTTPClient.h */,
+				D526F0FBE66DA8F926A5E944CE65FF17 /* JSONHTTPClient.m */,
+				220B658030122D8FD31E5AFDFFDB4AD5 /* JSONKeyMapper.h */,
+				31228E93F62868581387673D211DBF29 /* JSONKeyMapper.m */,
+				85E97F0E702A76412A91FE98B299F2DA /* JSONModel.h */,
+				1206277A75B407327D1B693457685AA8 /* JSONModel.m */,
+				A344D7D265D22D04235F7FFCAD0338FB /* JSONModel+networking.h */,
+				D5514C0CE70CB6F2034E42CEFC469BD0 /* JSONModel+networking.m */,
+				7F5D3D04B3B5968AA6B630C4960E789D /* JSONModelArray.h */,
+				1B9346E4D3847073D0C513190C5E92A4 /* JSONModelArray.m */,
+				B33D5CC47DF51C08F99BF2294EC8A1BC /* JSONModelClassProperty.h */,
+				80FC5F0464AF0A6D6EAA3DF19F7A2A89 /* JSONModelClassProperty.m */,
+				3C99F6CB56BB2EAFA55B3521AF7C0BAC /* JSONModelError.h */,
+				19AE2A5C47F8254933FE536C99E1A6AF /* JSONModelError.m */,
+				F061F5ACFC83FD45A27A1FF5C47BCE20 /* JSONModelLib.h */,
+				1713FFD0C4F75F7B31561CE27F430577 /* JSONValueTransformer.h */,
+				DE7C044FF88DBACE06412141DF1E2E99 /* JSONValueTransformer.m */,
+				E910AA5FC7012C8E3102B115A53EDD47 /* NSArray+JSONModel.h */,
+				E75DEEB83F5178C8979F273885B797D2 /* NSArray+JSONModel.m */,
+				4AFFC08D30E943B89D3932DAD67A0264 /* Support Files */,
 			);
-			name = Frameworks;
+			path = JSONModel;
 			sourceTree = "<group>";
 		};
-		C51EBE0A9CFE32FFDE1F3AB5C445A8EC /* UIKit */ = {
+		F7C79F37435B40B2F5CAA86874F9C512 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				F90D1403F8D619F04E3973AE9AC346EA /* AFNetworkActivityIndicatorManager.h */,
-				42330092257175167E11543DC25A0900 /* AFNetworkActivityIndicatorManager.m */,
-				63FC2CEA169DC09A36EF8F03CEC25100 /* UIActivityIndicatorView+AFNetworking.h */,
-				397F94B2172D2864E2B0FDF2851D6951 /* UIActivityIndicatorView+AFNetworking.m */,
-				33F9792890BBBFFF0DB434ACC416C719 /* UIAlertView+AFNetworking.h */,
-				A64486C676D1B2D466FDC4CB196EA2BC /* UIAlertView+AFNetworking.m */,
-				B0F57CFF08A4C0546F67A31B941906AF /* UIButton+AFNetworking.h */,
-				FCFDD05A59CA893110E598CA58F4406A /* UIButton+AFNetworking.m */,
-				F232B7E3CC670B127CA11D15737350FE /* UIImage+AFNetworking.h */,
-				58B4761FBA8D5E522A89440433A3885C /* UIImageView+AFNetworking.h */,
-				D5EFDD905CB48C2FFC3D3B74ED0EE109 /* UIImageView+AFNetworking.m */,
-				86799D45DBE172A36CE021875DE9291F /* UIKit+AFNetworking.h */,
-				E42EAD4D66965864068BD2DEC798E8FE /* UIProgressView+AFNetworking.h */,
-				5F28878FC1254579847211CAF765FF6B /* UIProgressView+AFNetworking.m */,
-				0FFA0D1C2E6B97A265386004D0089A7C /* UIRefreshControl+AFNetworking.h */,
-				26D360192C52A36210FB79AB54D85EC5 /* UIRefreshControl+AFNetworking.m */,
-				CCA5A07499507CE767C51103BA831E28 /* UIWebView+AFNetworking.h */,
-				9B8A34736245599C8553DCB00D341DAF /* UIWebView+AFNetworking.m */,
+				BFF0B6A9DDB37F34B7B56B0E276F6CFB /* AFNetworkReachabilityManager.h */,
+				DE6F8291901F5D2A9E280565027CF823 /* AFNetworkReachabilityManager.m */,
 			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		CA7BEB380279B6EF74E1B0CB735A2419 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				741204A1355AF6F7DAC9453C20895034 /* AFNetworking.h */,
-				E7CB9CB1CAD56D831F9956ACD15ED49F /* NSURLConnection */,
-				8FC1FE4EC566D4FD521D7EDE68FBC27B /* NSURLSession */,
-				85708B626A0E28B8C850797E462CB416 /* Reachability */,
-				90B6632EA3501796365C7BCB10F30EA6 /* Security */,
-				0C06039B88D66C87ED5B085BD68E345E /* Serialization */,
-				71777EBA96A57C88961CDEBCDDED9A4D /* Support Files */,
-				C51EBE0A9CFE32FFDE1F3AB5C445A8EC /* UIKit */,
-			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		E7CB9CB1CAD56D831F9956ACD15ED49F /* NSURLConnection */ = {
-			isa = PBXGroup;
-			children = (
-				9AF8A91B1A4E67B42F34DF8DF51C060F /* AFHTTPRequestOperation.h */,
-				1E2CF08B82A2308E3239E1C73957FB4D /* AFHTTPRequestOperation.m */,
-				721DFC084F065A3E12BB579ABD5A9BCB /* AFHTTPRequestOperationManager.h */,
-				D4FEF86DC534E0DBBE4896D175D25578 /* AFHTTPRequestOperationManager.m */,
-				A1FB68A3CA0D6E018BBE1805A06A73AE /* AFURLConnectionOperation.h */,
-				D72CA481FBF05057A7CA0CAF18636F61 /* AFURLConnectionOperation.m */,
-			);
-			name = NSURLConnection;
-			sourceTree = "<group>";
-		};
-		F7A3985FBE51CABA729CDDE7D54E719C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				38B7D6E2783AC6222AE1A71B68358BAD /* libAFNetworking.a */,
-				1D1F5F42D8277606431D18205106B85E /* libPods.a */,
-			);
-			name = Products;
+			name = Reachability;
 			sourceTree = "<group>";
 		};
 		FFD977C5D23FB16656C5D57197BAA49C /* iOS */ = {
@@ -528,6 +633,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		6EEA72BE015541ED3D178BEF9BB5788F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AC21BC7BD345D84F489F7A52D39E44 /* JSONAPI.h in Headers */,
+				D2718FB5214DA8A524CE735932323F82 /* JSONHTTPClient.h in Headers */,
+				4BDE97C783ED286933A60CAE9292B775 /* JSONKeyMapper.h in Headers */,
+				F7B5D2658B77049DDEC0AAA88E6FCEA7 /* JSONModel+networking.h in Headers */,
+				B82A170962598E7EAE9A8752574B7B74 /* JSONModel.h in Headers */,
+				52B9F1F399DEADDDFBE3F17BAA8D6D14 /* JSONModelArray.h in Headers */,
+				740B64AC8CA44CDC54A3A2CCB396A0EB /* JSONModelClassProperty.h in Headers */,
+				F4D2A0918C2C064F1A16B4CA2D42089A /* JSONModelError.h in Headers */,
+				C591CE6B9FA1950409E543A70B3ECABE /* JSONModelLib.h in Headers */,
+				04E0EFD308A39DA6783F9004C5689973 /* JSONValueTransformer.h in Headers */,
+				8F11ABA0C553B18981097015226E5748 /* NSArray+JSONModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9C26A9D9761804867532D147CEA1D5A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -558,6 +681,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		09FA060F1A0492FB25232F489AC4E573 /* JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AF5E073E12BB724B34252D7E1E5E2E /* Build configuration list for PBXNativeTarget "JSONModel" */;
+			buildPhases = (
+				9A80637BC4F7665B84839294439F16ED /* Sources */,
+				EB932C7244160CC464D5F7E2A9713D3F /* Frameworks */,
+				6EEA72BE015541ED3D178BEF9BB5788F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModel;
+			productName = JSONModel;
+			productReference = 42C8FA848CE1F104ABC76313837A9236 /* libJSONModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41F6B64BF089D072A394601910D14E7B /* Build configuration list for PBXNativeTarget "AFNetworking" */;
@@ -572,24 +712,25 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = 38B7D6E2783AC6222AE1A71B68358BAD /* libAFNetworking.a */;
+			productReference = 94446CAD7B001EC31E770DC2872403BD /* libAFNetworking.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C6D66FE7D3AD8963382F17E79643E1B8 /* Pods */ = {
+		808A9FFD160D7E76596B2C54A8061E9C /* Pods */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F5821E3F5CDC8D23F2D40C6D3090D1C /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = 7FA840ACB4E1C5E95C3C8AFFFA540162 /* Build configuration list for PBXNativeTarget "Pods" */;
 			buildPhases = (
-				D52A7420716A149EAD5EC37D5133AE08 /* Sources */,
-				331D0E510D700D7CEC5908DF3E865D29 /* Frameworks */,
+				9331DFEF14119F6DDF103819DC962B1E /* Sources */,
+				429DC070F3DDEF05AC68761F90D0CC68 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A0E0494A057019457A7359FBEB4D92B8 /* PBXTargetDependency */,
+				BDF9E1BFEB1D7164D3330C032D5971FE /* PBXTargetDependency */,
+				04502FCCA96DDB61CFD5D104E9DFD4F0 /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
-			productReference = 1D1F5F42D8277606431D18205106B85E /* libPods.a */;
+			productReference = 4E4101C61F31BA21621C4739E6AA7E21 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -609,17 +750,44 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F7A3985FBE51CABA729CDDE7D54E719C /* Products */;
+			productRefGroup = 2576B7D85EA744B922C85CF481D96BF2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */,
-				C6D66FE7D3AD8963382F17E79643E1B8 /* Pods */,
+				09FA060F1A0492FB25232F489AC4E573 /* JSONModel */,
+				808A9FFD160D7E76596B2C54A8061E9C /* Pods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9331DFEF14119F6DDF103819DC962B1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724D5AE92638FBB6F3271FC7BA39C673 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A80637BC4F7665B84839294439F16ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED2BAD1D43745DD69F82C134A985AB3 /* JSONAPI.m in Sources */,
+				ACF42F60DB38312D939C3817F3AECE32 /* JSONHTTPClient.m in Sources */,
+				ABC9A1F8D86F932BEE6C28A8849048A6 /* JSONKeyMapper.m in Sources */,
+				16A189CC65DC66678D3D637ED8B5B5FF /* JSONModel+networking.m in Sources */,
+				D4EF11B8928C1374360A67C3BC22AD13 /* JSONModel-dummy.m in Sources */,
+				4A4DCF231CE4F0B8916A5FA4590C3343 /* JSONModel.m in Sources */,
+				128993FF267CC0FA8EE6889C6AEC2EC3 /* JSONModelArray.m in Sources */,
+				4DE36D4B16AB5BD257BDBA97DE1BD733 /* JSONModelClassProperty.m in Sources */,
+				17D8C9D90B9DCDE1B8B9D5ECF8DADCEC /* JSONModelError.m in Sources */,
+				DCB74D72FE0E9C8C8E23B49C8CE52276 /* JSONValueTransformer.m in Sources */,
+				B685C45C6BF1321FC17F0F03AC635E4C /* NSArray+JSONModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D44B0AD2D97CB2AA74B614C1E92EDCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -645,55 +813,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D52A7420716A149EAD5EC37D5133AE08 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				283165E02916D714A49EFABF3A9280A0 /* Pods-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A0E0494A057019457A7359FBEB4D92B8 /* PBXTargetDependency */ = {
+		04502FCCA96DDB61CFD5D104E9DFD4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = 09FA060F1A0492FB25232F489AC4E573 /* JSONModel */;
+			targetProxy = 2FE0BDE6029F9E78B4B9608DDA0296A1 /* PBXContainerItemProxy */;
+		};
+		BDF9E1BFEB1D7164D3330C032D5971FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */;
-			targetProxy = 0E7A550CBB1789890208A2DC375FA909 /* PBXContainerItemProxy */;
+			targetProxy = 2F27C42D2F097303277D0B80C93A9D3A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2B9CF4C5CEF9F7262F6911E2D230BD9A /* Debug */ = {
+		22B4355894DDCF9B6481FD62CFDB6F26 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = E19F28C3572B4445246D954DCD1ECBD5 /* JSONModel.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		3AC6EBA54712C36860FB504AFA28B4D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -735,7 +885,7 @@
 		};
 		7883DEDFC9A1392657D472C527F4E9DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D929F2483696A499B6ADED0E3C6A3940 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 92B28402B1E367A6E8B472EE1382A727 /* AFNetworking.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
@@ -751,9 +901,27 @@
 			};
 			name = Debug;
 		};
+		9B973EB18A8789397171E3D4DC106FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19F28C3572B4445246D954DCD1ECBD5 /* JSONModel.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		A5B06ECA6A892D4CAB3EE95524DDD1C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D929F2483696A499B6ADED0E3C6A3940 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 92B28402B1E367A6E8B472EE1382A727 /* AFNetworking.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
@@ -808,6 +976,40 @@
 			};
 			name = Debug;
 		};
+		D8E985961ED413081317762D3F573EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F9C1FABA78C56F151970595B28E97A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -820,20 +1022,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F5821E3F5CDC8D23F2D40C6D3090D1C /* Build configuration list for PBXNativeTarget "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B9CF4C5CEF9F7262F6911E2D230BD9A /* Debug */,
-				3AC6EBA54712C36860FB504AFA28B4D5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		41F6B64BF089D072A394601910D14E7B /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7883DEDFC9A1392657D472C527F4E9DD /* Debug */,
 				A5B06ECA6A892D4CAB3EE95524DDD1C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA840ACB4E1C5E95C3C8AFFFA540162 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E985961ED413081317762D3F573EAF /* Debug */,
+				F9C1FABA78C56F151970595B28E97A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6AF5E073E12BB724B34252D7E1E5E2E /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B973EB18A8789397171E3D4DC106FAA /* Debug */,
+				22B4355894DDCF9B6481FD62CFDB6F26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

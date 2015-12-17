@@ -21,13 +21,16 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - EaseMobSDK (2.1.9)
+  - JSONModel (1.1.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.6.3)
   - EaseMobSDK (~> 2.1.9)
+  - JSONModel (~> 1.1.2)
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   EaseMobSDK: cc8415cb99a65debf4711fa2c9c349fd5c843299
+  JSONModel: 216584d0311b053ff714f1d6cb700dbf890847bc
 
 COCOAPODS: 0.39.0

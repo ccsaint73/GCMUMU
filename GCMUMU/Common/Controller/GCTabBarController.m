@@ -62,18 +62,16 @@
                               image:@"tabbar_mainframe"
                       selectedImage:@"tabbar_mainframeHL"
                               class:[GCSessionController class]];
-    
-    // 创建发现界面
-    [self createControllerWithTitle:NSLocalizedString(@"discover", @"")
-                              image:@"tabbar_discover"
-                      selectedImage:@"tabbar_discoverHL"
-                              class:[GCDiscoverController class]];
-    
     // 创建我的界面
     [self createControllerWithTitle:NSLocalizedString(@"profile", @"")
                               image:@"tabbar_me"
                       selectedImage:@"tabbar_meHL"
                               class:[GCProfileController class]];
+    // 创建发现界面
+    [self createControllerWithTitle:NSLocalizedString(@"discover", @"")
+                              image:@"tabbar_discover"
+                      selectedImage:@"tabbar_discoverHL"
+                              class:[GCDiscoverController class]];
 }
 
 - (void)createControllerWithTitle:(NSString *)title

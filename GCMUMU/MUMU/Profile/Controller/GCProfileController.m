@@ -7,6 +7,8 @@
 //
 
 #import "GCProfileController.h"
+#import "GCAddController.h"
+#import "EaseMob.h"
 
 @interface GCProfileController ()
 
@@ -17,21 +19,41 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self setupNav];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    // 获取好友列表
+    [self getBuddyList];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)setupNav
+{
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithTitle:@"添加" style:UIBarButtonItemStylePlain target:self action:@selector(rightItemDidSelected)];
+    rightItem.tintColor = [UIColor whiteColor];
+    self.navigationItem.rightBarButtonItem = rightItem;
 }
-*/
+
+- (void)rightItemDidSelected
+{
+    // 创建添加联系人
+    GCAddController *addVC = [[GCAddController alloc] init];
+    addVC.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:addVC animated:YES];
+}
+
+- (void)getBuddyList
+{
+    // 获取好友列表
+    [[EaseMob sharedInstance].chatManager asyncFetchBuddyListWithCompletion:^(NSArray *buddyList, EMError *error) {
+        if (!error) {
+            NSLog(@"获取成功 -- %@",buddyList);
+        }
+    } onQueue:nil];
+}
+
 
 @end

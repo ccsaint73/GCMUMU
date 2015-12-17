@@ -56,18 +56,24 @@
     // 拿到扫描线的y坐标
     CGFloat lineY = _scanLine.frame.origin.y;
     
+    // 判断扫描线方向
     if (_isUp) {
         lineY --;
     }else {
         lineY ++;
     }
     
+    // 设置扫描线边界，到达边界后反转扫描方向并将扫描线旋转180度
     if (lineY > SCREENH * 0.5 + 40) {
         _isUp = YES;
+        
+        _scanLine.transform = CGAffineTransformMakeRotation(M_PI);
     }else if (lineY < (SCREENH - 200) * 0.5 - 50) {
         _isUp = NO;
+        _scanLine.transform = CGAffineTransformIdentity;
     }
     
+    // 刷新扫描线的frame
     _scanLine.frame = CGRectMake((SCREENW - 200) * 0.5, lineY, 200, 10);
 }
 
@@ -81,6 +87,7 @@
     
     AVCaptureDeviceInput *input = [AVCaptureDeviceInput deviceInputWithDevice:device error:&error];
     
+    // 判断摄像头是否存在
     if (!error) {
         // 3.设置输出
         AVCaptureMetadataOutput *output = [[AVCaptureMetadataOutput alloc] init];
@@ -105,8 +112,10 @@
     }
 }
 
+// 扫描结果回调
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection
 {
+    // 判断是否有扫描到数据
     if (metadataObjects.count > 0) {
         [_session stopRunning];
         _link.paused = YES;

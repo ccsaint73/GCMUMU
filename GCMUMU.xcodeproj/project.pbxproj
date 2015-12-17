@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0C89E1EFD66B8BA656B29C16 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1FF309354FD26070B88806 /* libPods.a */; };
+		BC3969681C22547400347994 /* GCLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3969661C22547400347994 /* GCLoginController.m */; };
+		BC3969691C22547400347994 /* GCLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3969671C22547400347994 /* GCLoginController.xib */; };
+		BC39696B1C225BA600347994 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = BC39696A1C225BA600347994 /* login.png */; };
+		BC39696D1C225C6000347994 /* HR_login_textBg.png in Resources */ = {isa = PBXBuildFile; fileRef = BC39696C1C225C6000347994 /* HR_login_textBg.png */; };
+		BC39696F1C2261FA00347994 /* HR_login_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = BC39696E1C2261FA00347994 /* HR_login_btn.png */; };
+		BC3969711C2268CF00347994 /* HR_login_btnBg.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3969701C2268CF00347994 /* HR_login_btnBg.png */; };
+		BC3969741C2268F300347994 /* HR_login_qq.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3969721C2268F300347994 /* HR_login_qq.png */; };
+		BC3969751C2268F300347994 /* HR_login_sina.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3969731C2268F300347994 /* HR_login_sina.png */; };
+		BC3969781C22A1E700347994 /* GCAddController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3969771C22A1E700347994 /* GCAddController.m */; };
 		BC470E951C17B9D4004DA99E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC470E941C17B9D4004DA99E /* main.m */; };
 		BC470E981C17B9D5004DA99E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC470E971C17B9D5004DA99E /* AppDelegate.m */; };
 		BC470E9E1C17B9D5004DA99E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC470E9C1C17B9D5004DA99E /* Main.storyboard */; };
@@ -75,6 +84,17 @@
 /* Begin PBXFileReference section */
 		3D1FF309354FD26070B88806 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25C95ED5956A4ADF23681B3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BC3969651C22547400347994 /* GCLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCLoginController.h; sourceTree = "<group>"; };
+		BC3969661C22547400347994 /* GCLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCLoginController.m; sourceTree = "<group>"; };
+		BC3969671C22547400347994 /* GCLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCLoginController.xib; sourceTree = "<group>"; };
+		BC39696A1C225BA600347994 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		BC39696C1C225C6000347994 /* HR_login_textBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HR_login_textBg.png; sourceTree = "<group>"; };
+		BC39696E1C2261FA00347994 /* HR_login_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HR_login_btn.png; sourceTree = "<group>"; };
+		BC3969701C2268CF00347994 /* HR_login_btnBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HR_login_btnBg.png; sourceTree = "<group>"; };
+		BC3969721C2268F300347994 /* HR_login_qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HR_login_qq.png; sourceTree = "<group>"; };
+		BC3969731C2268F300347994 /* HR_login_sina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HR_login_sina.png; sourceTree = "<group>"; };
+		BC3969761C22A1E700347994 /* GCAddController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCAddController.h; sourceTree = "<group>"; };
+		BC3969771C22A1E700347994 /* GCAddController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCAddController.m; sourceTree = "<group>"; };
 		BC470E8F1C17B9D4004DA99E /* GCMUMU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCMUMU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC470E931C17B9D4004DA99E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC470E941C17B9D4004DA99E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -188,6 +208,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BC3969591C2253F500347994 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BC39695A1C2253F500347994 /* Controller */,
+				BC39695B1C2253F500347994 /* Model */,
+				BC39695C1C2253F500347994 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BC39695A1C2253F500347994 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC3969651C22547400347994 /* GCLoginController.h */,
+				BC3969661C22547400347994 /* GCLoginController.m */,
+				BC3969671C22547400347994 /* GCLoginController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC39695B1C2253F500347994 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC39695C1C2253F500347994 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BC470E861C17B9D3004DA99E = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +310,7 @@
 		BC470EB81C17C86C004DA99E /* MUMU */ = {
 			isa = PBXGroup;
 			children = (
+				BC3969591C2253F500347994 /* Login */,
 				BC470EBA1C17C923004DA99E /* Discover */,
 				BC470EBE1C17C923004DA99E /* Main */,
 				BC470EC21C17C923004DA99E /* Profile */,
@@ -355,6 +410,8 @@
 			children = (
 				BC470EDC1C17D071004DA99E /* GCProfileController.h */,
 				BC470EDD1C17D071004DA99E /* GCProfileController.m */,
+				BC3969761C22A1E700347994 /* GCAddController.h */,
+				BC3969771C22A1E700347994 /* GCAddController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -489,11 +546,17 @@
 		BC470F6F1C195B9B004DA99E /* Bg */ = {
 			isa = PBXGroup;
 			children = (
+				BC39696A1C225BA600347994 /* login.png */,
 				BC470F761C19628C004DA99E /* class.png */,
 				BC470F721C19624E004DA99E /* HR_border.png */,
 				BC470F701C195B9B004DA99E /* group_remind_bg@2x.png */,
 				BC470F741C19625B004DA99E /* HR_scan_line.png */,
 				BC470F781C1962A6004DA99E /* Nav_qrcode@2x.png */,
+				BC39696C1C225C6000347994 /* HR_login_textBg.png */,
+				BC39696E1C2261FA00347994 /* HR_login_btn.png */,
+				BC3969701C2268CF00347994 /* HR_login_btnBg.png */,
+				BC3969721C2268F300347994 /* HR_login_qq.png */,
+				BC3969731C2268F300347994 /* HR_login_sina.png */,
 			);
 			path = Bg;
 			sourceTree = "<group>";
@@ -599,22 +662,29 @@
 				BC470F671C195ADC004DA99E /* LaunchImage-700-568h@2x.png in Resources */,
 				BC470F471C195141004DA99E /* tabbar_contactsHL@2x.png in Resources */,
 				BC470F711C195B9B004DA99E /* group_remind_bg@2x.png in Resources */,
+				BC39696D1C225C6000347994 /* HR_login_textBg.png in Resources */,
 				BC470F451C195141004DA99E /* tabbar_contacts@2x.png in Resources */,
 				BC470F521C195141004DA99E /* tabbar_me@3x.png in Resources */,
 				BC470F771C19628C004DA99E /* class.png in Resources */,
 				BC470F461C195141004DA99E /* tabbar_contacts@3x.png in Resources */,
+				BC39696B1C225BA600347994 /* login.png in Resources */,
 				BC470F4A1C195141004DA99E /* tabbar_discover@3x.png in Resources */,
 				BC470F4B1C195141004DA99E /* tabbar_discoverHL@2x.png in Resources */,
 				BC470F731C19624E004DA99E /* HR_border.png in Resources */,
 				BC470F431C195141004DA99E /* tabbar_badge@2x.png in Resources */,
 				BC470F791C1962A6004DA99E /* Nav_qrcode@2x.png in Resources */,
 				BC470EA01C17B9D5004DA99E /* Images.xcassets in Resources */,
+				BC3969741C2268F300347994 /* HR_login_qq.png in Resources */,
+				BC3969691C22547400347994 /* GCLoginController.xib in Resources */,
 				BC470F4D1C195141004DA99E /* tabbar_mainframe@2x.png in Resources */,
+				BC3969751C2268F300347994 /* HR_login_sina.png in Resources */,
 				BC470F531C195141004DA99E /* tabbar_meHL@2x.png in Resources */,
 				BC470F6E1C195ADC004DA99E /* LaunchImage@2x.png in Resources */,
 				BC470F4F1C195141004DA99E /* tabbar_mainframeHL@2x.png in Resources */,
+				BC39696F1C2261FA00347994 /* HR_login_btn.png in Resources */,
 				BC470F551C195141004DA99E /* tabbarBkg@2x.png in Resources */,
 				BC470F661C195ADC004DA99E /* LaunchImage-568h@2x.png in Resources */,
+				BC3969711C2268CF00347994 /* HR_login_btnBg.png in Resources */,
 				BC470F511C195141004DA99E /* tabbar_me@2x.png in Resources */,
 				BC470F751C19625B004DA99E /* HR_scan_line.png in Resources */,
 				BC470F681C195ADC004DA99E /* LaunchImage-700-Portrait@2x~ipad.png in Resources */,
@@ -688,8 +758,10 @@
 				BC470F581C1953E6004DA99E /* GCTabBar.m in Sources */,
 				BC470F5B1C195483004DA99E /* GCTabBarButton.m in Sources */,
 				BC470EDB1C17D05D004DA99E /* GCSessionController.m in Sources */,
+				BC3969681C22547400347994 /* GCLoginController.m in Sources */,
 				BC470E981C17B9D5004DA99E /* AppDelegate.m in Sources */,
 				BC470ED21C17CFE0004DA99E /* GCNavigationController.m in Sources */,
+				BC3969781C22A1E700347994 /* GCAddController.m in Sources */,
 				BC470EF41C1807DA004DA99E /* ORProgressHUD.m in Sources */,
 				BC470F7C1C19649F004DA99E /* GCQrCodeController.m in Sources */,
 				BC470ED81C17D03D004DA99E /* GCDiscoverController.m in Sources */,
@@ -836,6 +908,7 @@
 			baseConfigurationReference = E1A2D5FC7C241B775DD938C9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/GCMUMU/PrefixHeader.pch";
 				INFOPLIST_FILE = GCMUMU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -848,6 +921,7 @@
 			baseConfigurationReference = B25C95ED5956A4ADF23681B3 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/GCMUMU/PrefixHeader.pch";
 				INFOPLIST_FILE = GCMUMU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
