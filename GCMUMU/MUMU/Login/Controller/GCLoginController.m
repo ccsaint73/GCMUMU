@@ -21,6 +21,28 @@
 
 @implementation GCLoginController
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    [self setupInit];
+}
+
+- (void)setupInit
+{
+    NSString *username = [[NSUserDefaults standardUserDefaults] objectForKey:@"username"];
+    
+    if (username) {
+        _nameField.text = username;
+    }
+    
+    NSString *passwd = [[NSUserDefaults standardUserDefaults] objectForKey:@"passwd"];
+    
+    if (passwd) {
+        _pwdField.text = passwd;
+    }
+}
+
 // 登录
 - (IBAction)login:(id)sender {
     // 隐藏键盘
@@ -33,6 +55,11 @@
         [ORProgressHUD hide];
         
         if (!error && loginInfo) {
+            // 记住密码
+            [[NSUserDefaults standardUserDefaults] setObject:_nameField.text forKey:@"username"];
+            [[NSUserDefaults standardUserDefaults] setObject:_pwdField.text forKey:@"passwd"];
+            [[NSUserDefaults standardUserDefaults] synchronize];
+            // 跳转页面
             GCTabBarController *tabBarVC = [[GCTabBarController alloc] init];
             ((AppDelegate *)[UIApplication sharedApplication].delegate).window.rootViewController = tabBarVC;
         }else {

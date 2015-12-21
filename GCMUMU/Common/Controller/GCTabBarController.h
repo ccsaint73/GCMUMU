@@ -10,4 +10,6 @@
 
 @interface GCTabBarController : UITabBarController
 
+- (void)setBtnWithTag:(NSInteger)tag;
+
 @end

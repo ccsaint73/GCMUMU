@@ -12,7 +12,7 @@
 #import "GCSlidingMenuController.h"
 #import "Easemob.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <IChatManagerDelegate>
 
 @end
 
@@ -24,6 +24,9 @@
     // 注册环信
     [[EaseMob sharedInstance] registerSDKWithAppKey:@"ori#mumu" apnsCertName:nil];
     [[EaseMob sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
+    
+    // 设置环信代理
+    [[EaseMob sharedInstance].chatManager addDelegate:self delegateQueue:nil];
     
     // 注册极光推送
     
@@ -61,4 +64,13 @@
 {
     [[EaseMob sharedInstance] applicationWillTerminate:application];
 }
+
+- (void)didReceiveBuddyRequest:(NSString *)username message:(NSString *)message
+{
+    NSDictionary *dict = @{@"username":username, @"message":message};
+    
+    [[NSUserDefaults standardUserDefaults] setObject:dict forKey:@"buddy"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
 @end

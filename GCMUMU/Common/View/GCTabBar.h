@@ -14,4 +14,6 @@
 
 @property (nonatomic, copy) void(^btnOnClick)(NSInteger index);
 
+- (void)setBtnWithTag:(NSInteger)tag;
+
 @end

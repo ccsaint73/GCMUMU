@@ -9,3 +9,5 @@
 "discover" = "discover";
 "session"  = "session";
 "profile"  = "profile";
+"group"    = "group";
+"new"      = "new";

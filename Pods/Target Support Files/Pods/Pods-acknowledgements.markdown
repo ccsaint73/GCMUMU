@@ -49,6 +49,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+## JPush
+
+LICENSE Copyright 2010 - 2014 JPush.cn, Inc. All rights reserved.
+
 ## JSONModel
 
 JSONModel

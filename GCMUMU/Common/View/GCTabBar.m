@@ -78,4 +78,11 @@
     }
 }
 
+- (void)setBtnWithTag:(NSInteger)tag
+{
+    UIButton *btn = [[UIButton alloc] init];
+    btn.tag = tag + 1000;
+    [self btnDidSelected:btn];
+}
+
 @end
