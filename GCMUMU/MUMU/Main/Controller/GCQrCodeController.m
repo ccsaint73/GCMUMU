@@ -23,13 +23,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor blackColor];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
     [self createUI];
     [self createQrCode];
 }
 
 - (void)createUI
 {
-    self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"二维码";
     
     // 创建扫描框

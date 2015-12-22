@@ -9,6 +9,7 @@
 #import "GCSessionController.h"
 #import "GCQrCodeController.h"
 #import "GCConversionCell.h"
+#import "GCChatController.h"
 #import "EaseMob.h"
 
 @interface GCSessionController () <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate>
@@ -27,7 +28,6 @@
     
     // 设置导航栏
     [self setupNav];
-    
     [self setupUI];
 }
 
@@ -87,6 +87,15 @@
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    GCChatController *chat = [[GCChatController alloc] init];
+    EMConversation *conversion = _conversations[indexPath.row];
+    chat.conversion = conversion;
+    chat.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:chat animated:YES];
 }
 
 #pragma mark --

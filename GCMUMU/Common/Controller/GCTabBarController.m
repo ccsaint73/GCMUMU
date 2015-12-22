@@ -86,7 +86,7 @@
     
     nav.tabBarItem.title = title;
     nav.tabBarItem.image = [UIImage imageNamed:image];
-    nav.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
+    nav.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
     [self addChildViewController:nav];
 }

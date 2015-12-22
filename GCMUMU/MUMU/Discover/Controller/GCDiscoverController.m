@@ -39,14 +39,15 @@
     _infos = [NSMutableArray array];
     
     // 设置图标，文字，跳转类
-    NSArray *images = @[@"ShowAlbum", @"Location_HL", @"food", @"qrcode", @"video"];
-    NSArray *titles = @[@"分享", @"地图", @"扫一扫", @"餐饮", @"电影"];
-    NSArray *classes = @[@"GCQrCodeController", @"GCQrCodeController", @"GCQrCodeController", @"GCQrCodeController", @"GCQrCodeController"];
+    NSArray *images = @[@"ShowAlbum", @"Location_HL", @"food", @"qrcode", @"video", @"MoreSetting"];
+    NSArray *titles = @[@"分享", @"地图", @"扫一扫", @"餐饮", @"电影", @"设置"];
+    NSArray *classes = @[@"GCQrCodeController", @"GCQrCodeController", @"GCQrCodeController", @"GCQrCodeController", @"GCQrCodeController", @"GCQrCodeController"];
     
     // 给子数组赋值
     NSMutableArray *fitems = [NSMutableArray array];
     NSMutableArray *sitems = [NSMutableArray array];
     NSMutableArray *titems = [NSMutableArray array];
+    NSMutableArray *ritems = [NSMutableArray array];
     
     for (int i = 0; i < 1; i ++) {
         GCInfo *item = [[GCInfo alloc] init];
@@ -64,17 +65,26 @@
         [sitems addObject:item];
     }
     
-    for (int i = 0; i < 2; i ++) {
+    for (int i = 0; i < 1; i ++) {
         GCInfo *item = [[GCInfo alloc] init];
         item.image = images[i + 3];
         item.title = titles[i + 3];
         item.className = classes[i + 3];
         [titems addObject:item];
     }
+    
+    for (int i = 0; i < 1; i ++) {
+        GCInfo *item = [[GCInfo alloc] init];
+        item.image = images[i + 5];
+        item.title = titles[i + 5];
+        item.className = classes[i + 5];
+        [ritems addObject:item];
+    }
 
     [_infos addObject:fitems];
     [_infos addObject:sitems];
     [_infos addObject:titems];
+    [_infos addObject:ritems];
     
     // 刷新数据
     [self.tableView reloadData];

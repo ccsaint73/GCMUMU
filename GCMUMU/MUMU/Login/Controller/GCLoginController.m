@@ -41,6 +41,18 @@
     if (passwd) {
         _pwdField.text = passwd;
     }
+    
+    // 添加点击手势
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(keyboardHide)];
+    
+    //
+    [self.view addGestureRecognizer:tap];
+}
+
+// 隐藏键盘
+- (void)keyboardHide
+{
+    [self.view endEditing:YES];
 }
 
 // 登录

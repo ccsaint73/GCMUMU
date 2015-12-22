@@ -92,9 +92,13 @@
 		BCDF83FD1C27DD8400ACD1FC /* FriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF83FB1C27DD8400ACD1FC /* FriendCell.m */; };
 		BCDF83FE1C27DD8400ACD1FC /* FriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDF83FC1C27DD8400ACD1FC /* FriendCell.xib */; };
 		BCDF84011C27FB5900ACD1FC /* GCNewFriendController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF84001C27FB5900ACD1FC /* GCNewFriendController.m */; };
-		BCDF84041C28048D00ACD1FC /* GCChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF84031C28048D00ACD1FC /* GCChatController.m */; };
 		BCDF84081C28284000ACD1FC /* GCConversionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF84061C28284000ACD1FC /* GCConversionCell.m */; };
 		BCDF84091C28284000ACD1FC /* GCConversionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDF84071C28284000ACD1FC /* GCConversionCell.xib */; };
+		BCDF840D1C28F33C00ACD1FC /* MoreSetting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDF840B1C28F33C00ACD1FC /* MoreSetting@2x.png */; };
+		BCDF840E1C28F33C00ACD1FC /* MoreSetting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDF840C1C28F33C00ACD1FC /* MoreSetting@3x.png */; };
+		BCDF84121C29006500ACD1FC /* GCChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF84101C29006500ACD1FC /* GCChatController.m */; };
+		BCE1335C1C2939D5000D0E7C /* GCChatBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE1335B1C2939D5000D0E7C /* GCChatBottomView.m */; };
+		BCE1335E1C2939E6000D0E7C /* GCChatBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE1335D1C2939E6000D0E7C /* GCChatBottomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -223,11 +227,16 @@
 		BCDF83FC1C27DD8400ACD1FC /* FriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendCell.xib; sourceTree = "<group>"; };
 		BCDF83FF1C27FB5900ACD1FC /* GCNewFriendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCNewFriendController.h; sourceTree = "<group>"; };
 		BCDF84001C27FB5900ACD1FC /* GCNewFriendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCNewFriendController.m; sourceTree = "<group>"; };
-		BCDF84021C28048D00ACD1FC /* GCChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCChatController.h; sourceTree = "<group>"; };
-		BCDF84031C28048D00ACD1FC /* GCChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCChatController.m; sourceTree = "<group>"; };
 		BCDF84051C28284000ACD1FC /* GCConversionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCConversionCell.h; sourceTree = "<group>"; };
 		BCDF84061C28284000ACD1FC /* GCConversionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCConversionCell.m; sourceTree = "<group>"; };
 		BCDF84071C28284000ACD1FC /* GCConversionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCConversionCell.xib; sourceTree = "<group>"; };
+		BCDF840B1C28F33C00ACD1FC /* MoreSetting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoreSetting@2x.png"; sourceTree = "<group>"; };
+		BCDF840C1C28F33C00ACD1FC /* MoreSetting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoreSetting@3x.png"; sourceTree = "<group>"; };
+		BCDF840F1C29006500ACD1FC /* GCChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCChatController.h; sourceTree = "<group>"; };
+		BCDF84101C29006500ACD1FC /* GCChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCChatController.m; sourceTree = "<group>"; };
+		BCE1335A1C2939D5000D0E7C /* GCChatBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCChatBottomView.h; sourceTree = "<group>"; };
+		BCE1335B1C2939D5000D0E7C /* GCChatBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCChatBottomView.m; sourceTree = "<group>"; };
+		BCE1335D1C2939E6000D0E7C /* GCChatBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCChatBottomView.xib; sourceTree = "<group>"; };
 		E1A2D5FC7C241B775DD938C9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -441,8 +450,8 @@
 				BC470EDA1C17D05D004DA99E /* GCSessionController.m */,
 				BC470F7A1C19649F004DA99E /* GCQrCodeController.h */,
 				BC470F7B1C19649F004DA99E /* GCQrCodeController.m */,
-				BCDF84021C28048D00ACD1FC /* GCChatController.h */,
-				BCDF84031C28048D00ACD1FC /* GCChatController.m */,
+				BCDF840F1C29006500ACD1FC /* GCChatController.h */,
+				BCDF84101C29006500ACD1FC /* GCChatController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -460,6 +469,9 @@
 				BCDF84051C28284000ACD1FC /* GCConversionCell.h */,
 				BCDF84061C28284000ACD1FC /* GCConversionCell.m */,
 				BCDF84071C28284000ACD1FC /* GCConversionCell.xib */,
+				BCE1335A1C2939D5000D0E7C /* GCChatBottomView.h */,
+				BCE1335B1C2939D5000D0E7C /* GCChatBottomView.m */,
+				BCE1335D1C2939E6000D0E7C /* GCChatBottomView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -641,6 +653,8 @@
 		BCDF83D91C27B1B300ACD1FC /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				BCDF840B1C28F33C00ACD1FC /* MoreSetting@2x.png */,
+				BCDF840C1C28F33C00ACD1FC /* MoreSetting@3x.png */,
 				BCDF83F81C27DAD200ACD1FC /* ff_IconAdd@2x.png */,
 				BCDF83F41C27D79400ACD1FC /* addgroup@2x.png */,
 				BCDF83F51C27D79400ACD1FC /* addgroup@3x.png */,
@@ -748,15 +762,18 @@
 				BC470F6D1C195ADC004DA99E /* LaunchImage.png in Resources */,
 				BC470F541C195141004DA99E /* tabbar_meHL@3x.png in Resources */,
 				BC470F6C1C195ADC004DA99E /* LaunchImage-Portrait@2x~ipad.png in Resources */,
+				BCDF840E1C28F33C00ACD1FC /* MoreSetting@3x.png in Resources */,
 				BC470E9E1C17B9D5004DA99E /* Main.storyboard in Resources */,
 				BCDF83EC1C27B1FB00ACD1FC /* location_detail@2x.png in Resources */,
 				BC470F441C195141004DA99E /* tabbar_badge@3x.png in Resources */,
 				BC470F6A1C195ADC004DA99E /* LaunchImage-800-667h@2x.png in Resources */,
 				BC470EEA1C1800A8004DA99E /* Localizable.strings in Resources */,
+				BCDF840D1C28F33C00ACD1FC /* MoreSetting@2x.png in Resources */,
 				BC470EA31C17B9D5004DA99E /* LaunchScreen.xib in Resources */,
 				BC470F691C195ADC004DA99E /* LaunchImage-700@2x.png in Resources */,
 				BCDF83F01C27B1FB00ACD1FC /* ShowAlbum@3x.png in Resources */,
 				BC470F481C195141004DA99E /* tabbar_contactsHL@3x.png in Resources */,
+				BCE1335E1C2939E6000D0E7C /* GCChatBottomView.xib in Resources */,
 				BCDF83ED1C27B1FB00ACD1FC /* location_detail@3x.png in Resources */,
 				BC470F4C1C195141004DA99E /* tabbar_discoverHL@3x.png in Resources */,
 				BC470F491C195141004DA99E /* tabbar_discover@2x.png in Resources */,
@@ -874,11 +891,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCDF84041C28048D00ACD1FC /* GCChatController.m in Sources */,
 				BC470F581C1953E6004DA99E /* GCTabBar.m in Sources */,
 				BCDF83D41C27A8BD00ACD1FC /* GCDiscoverCell.m in Sources */,
 				BC470F5B1C195483004DA99E /* GCTabBarButton.m in Sources */,
 				BC470EDB1C17D05D004DA99E /* GCSessionController.m in Sources */,
+				BCE1335C1C2939D5000D0E7C /* GCChatBottomView.m in Sources */,
 				BC3969681C22547400347994 /* GCLoginController.m in Sources */,
 				BCDF83D81C27AD3A00ACD1FC /* GCInfo.m in Sources */,
 				BC470E981C17B9D5004DA99E /* AppDelegate.m in Sources */,
@@ -888,6 +905,7 @@
 				BCDF84011C27FB5900ACD1FC /* GCNewFriendController.m in Sources */,
 				BC470F7C1C19649F004DA99E /* GCQrCodeController.m in Sources */,
 				BC470ED81C17D03D004DA99E /* GCDiscoverController.m in Sources */,
+				BCDF84121C29006500ACD1FC /* GCChatController.m in Sources */,
 				BC470E951C17B9D4004DA99E /* main.m in Sources */,
 				BCDF83FD1C27DD8400ACD1FC /* FriendCell.m in Sources */,
 				BCDF83D01C27A64B00ACD1FC /* Friend.m in Sources */,
@@ -985,7 +1003,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1022,7 +1040,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
