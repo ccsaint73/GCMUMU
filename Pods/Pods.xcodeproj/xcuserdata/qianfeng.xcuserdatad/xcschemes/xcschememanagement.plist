@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UMengSocial.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -32,7 +37,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>808A9FFD160D7E76596B2C54A8061E9C</key>
+		<key>CB77CE280275F3C1C6D613B18C881FF9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD3BE85BAE33AA5C57E0A85C87FD4A18</key>
 		<dict>
 			<key>primary</key>
 			<true/>

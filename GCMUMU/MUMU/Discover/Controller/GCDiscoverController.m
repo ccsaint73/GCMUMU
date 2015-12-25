@@ -9,6 +9,7 @@
 #import "GCDiscoverController.h"
 #import "GCDiscoverCell.h"
 #import "GCInfo.h"
+#import "UMSocial.h"
 
 @interface GCDiscoverController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -41,7 +42,7 @@
     // 设置图标，文字，跳转类
     NSArray *images = @[@"ShowAlbum", @"Location_HL", @"food", @"qrcode", @"video", @"MoreSetting"];
     NSArray *titles = @[@"分享", @"地图", @"扫一扫", @"餐饮", @"电影", @"设置"];
-    NSArray *classes = @[@"GCQrCodeController", @"GCQrCodeController", @"GCQrCodeController", @"GCQrCodeController", @"GCQrCodeController", @"GCQrCodeController"];
+    NSArray *classes = @[@"GCQrCodeController", @"GCQrCodeController", @"GCQrCodeController", @"GCQrCodeController", @"GCQrCodeController", @"GCSettingController"];
     
     // 给子数组赋值
     NSMutableArray *fitems = [NSMutableArray array];
@@ -131,11 +132,20 @@
     NSArray *items = _infos[indexPath.section];
     GCInfo *info = items[indexPath.row];
     
-    // 跳转页面
-    Class c = NSClassFromString(info.className);
-    UIViewController *vc = [[c alloc] init];
-    vc.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:vc animated:YES];
+    if (indexPath.section == 0) {
+        [UMSocialSnsService presentSnsIconSheetView:self
+                                             appKey:UMAppKey
+                                          shareText:@"最好的即时聊天应用"
+                                         shareImage:[UIImage imageNamed:@"icon.png"]
+                                    shareToSnsNames:[NSArray arrayWithObjects:UMShareToSina,UMShareToWechatSession,UMShareToQQ,nil]
+                                           delegate:nil];
+    }else {
+        // 跳转页面
+        Class c = NSClassFromString(info.className);
+        UIViewController *vc = [[c alloc] init];
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section

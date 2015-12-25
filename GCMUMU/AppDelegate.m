@@ -11,6 +11,9 @@
 #import "GCLoginController.h"
 #import "GCSlidingMenuController.h"
 #import "Easemob.h"
+#import "UMSocialSinaHandler.h"
+#import "UMSocial.h"
+#import "GCGuideController.h"
 
 @interface AppDelegate () <IChatManagerDelegate>
 
@@ -32,16 +35,34 @@
     
     // 注册高德地图
     
-    // 1.创建窗口
+    // 注册友盟
+    [UMSocialData setAppKey:UMAppKey];
+    // 开始新浪sso授权
+    [UMSocialSinaHandler openSSOWithRedirectURL:nil];
+    
+    // 创建窗口
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    // 2.创建登录控制器
-    GCLoginController *login = [[GCLoginController alloc] initWithNibName:@"GCLoginController" bundle:nil];
+    BOOL notFirst = [[NSUserDefaults standardUserDefaults] boolForKey:@"notFirst"];
     
-    // 3.设置window的跟控制器
-    self.window.rootViewController = login;
+    if (notFirst) {
+        // 创建登录控制器
+        GCLoginController *login = [[GCLoginController alloc] initWithNibName:@"GCLoginController" bundle:nil];
+        
+        // 设置window的跟控制器
+        self.window.rootViewController = login;
+    }else {
+        // 创建导航视图
+        GCGuideController *guide = [[GCGuideController alloc] init];
+        
+        self.window.rootViewController = guide;
+        
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"notFirst"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
     
-    // 4.设置主窗口并显示
+    
+    // 设置主窗口并显示
     [self.window makeKeyAndVisible];
     
     return YES;

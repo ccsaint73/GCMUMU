@@ -69,6 +69,10 @@
 		BC470F771C19628C004DA99E /* class.png in Resources */ = {isa = PBXBuildFile; fileRef = BC470F761C19628C004DA99E /* class.png */; };
 		BC470F791C1962A6004DA99E /* Nav_qrcode@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC470F781C1962A6004DA99E /* Nav_qrcode@2x.png */; };
 		BC470F7C1C19649F004DA99E /* GCQrCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC470F7B1C19649F004DA99E /* GCQrCodeController.m */; };
+		BC757B051C2CE01C00D4BF76 /* GCGuideController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC757B041C2CE01C00D4BF76 /* GCGuideController.m */; };
+		BC757B091C2CE60400D4BF76 /* mm.png in Resources */ = {isa = PBXBuildFile; fileRef = BC757B081C2CE60400D4BF76 /* mm.png */; };
+		BC757B0D1C2CED8000D4BF76 /* GCRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC757B0B1C2CED8000D4BF76 /* GCRegisterController.m */; };
+		BC757B0E1C2CED8000D4BF76 /* GCRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC757B0C1C2CED8000D4BF76 /* GCRegisterController.xib */; };
 		BCDF83D01C27A64B00ACD1FC /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF83CF1C27A64B00ACD1FC /* Friend.m */; };
 		BCDF83D41C27A8BD00ACD1FC /* GCDiscoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF83D21C27A8BD00ACD1FC /* GCDiscoverCell.m */; };
 		BCDF83D51C27A8BD00ACD1FC /* GCDiscoverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDF83D31C27A8BD00ACD1FC /* GCDiscoverCell.xib */; };
@@ -99,6 +103,7 @@
 		BCDF84121C29006500ACD1FC /* GCChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF84101C29006500ACD1FC /* GCChatController.m */; };
 		BCE1335C1C2939D5000D0E7C /* GCChatBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE1335B1C2939D5000D0E7C /* GCChatBottomView.m */; };
 		BCE1335E1C2939E6000D0E7C /* GCChatBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE1335D1C2939E6000D0E7C /* GCChatBottomView.xib */; };
+		BCE133971C2A4F30000D0E7C /* GCSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE133961C2A4F30000D0E7C /* GCSettingController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +204,12 @@
 		BC470F7B1C19649F004DA99E /* GCQrCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCQrCodeController.m; sourceTree = "<group>"; };
 		BC470F7D1C1965C3004DA99E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BC470F7F1C1966B9004DA99E /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		BC757B031C2CE01C00D4BF76 /* GCGuideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCGuideController.h; sourceTree = "<group>"; };
+		BC757B041C2CE01C00D4BF76 /* GCGuideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCGuideController.m; sourceTree = "<group>"; };
+		BC757B081C2CE60400D4BF76 /* mm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mm.png; sourceTree = "<group>"; };
+		BC757B0A1C2CED8000D4BF76 /* GCRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCRegisterController.h; sourceTree = "<group>"; };
+		BC757B0B1C2CED8000D4BF76 /* GCRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCRegisterController.m; sourceTree = "<group>"; };
+		BC757B0C1C2CED8000D4BF76 /* GCRegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCRegisterController.xib; sourceTree = "<group>"; };
 		BCDF83CE1C27A64B00ACD1FC /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
 		BCDF83CF1C27A64B00ACD1FC /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
 		BCDF83D11C27A8BD00ACD1FC /* GCDiscoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDiscoverCell.h; sourceTree = "<group>"; };
@@ -237,6 +248,8 @@
 		BCE1335A1C2939D5000D0E7C /* GCChatBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCChatBottomView.h; sourceTree = "<group>"; };
 		BCE1335B1C2939D5000D0E7C /* GCChatBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCChatBottomView.m; sourceTree = "<group>"; };
 		BCE1335D1C2939E6000D0E7C /* GCChatBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCChatBottomView.xib; sourceTree = "<group>"; };
+		BCE133951C2A4F30000D0E7C /* GCSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCSettingController.h; sourceTree = "<group>"; };
+		BCE133961C2A4F30000D0E7C /* GCSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCSettingController.m; sourceTree = "<group>"; };
 		E1A2D5FC7C241B775DD938C9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -289,9 +302,14 @@
 		BC39695A1C2253F500347994 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BC757B031C2CE01C00D4BF76 /* GCGuideController.h */,
+				BC757B041C2CE01C00D4BF76 /* GCGuideController.m */,
 				BC3969651C22547400347994 /* GCLoginController.h */,
 				BC3969661C22547400347994 /* GCLoginController.m */,
 				BC3969671C22547400347994 /* GCLoginController.xib */,
+				BC757B0A1C2CED8000D4BF76 /* GCRegisterController.h */,
+				BC757B0B1C2CED8000D4BF76 /* GCRegisterController.m */,
+				BC757B0C1C2CED8000D4BF76 /* GCRegisterController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -410,6 +428,8 @@
 			children = (
 				BC470ED61C17D03D004DA99E /* GCDiscoverController.h */,
 				BC470ED71C17D03D004DA99E /* GCDiscoverController.m */,
+				BCE133951C2A4F30000D0E7C /* GCSettingController.h */,
+				BCE133961C2A4F30000D0E7C /* GCSettingController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -653,6 +673,7 @@
 		BCDF83D91C27B1B300ACD1FC /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				BC757B081C2CE60400D4BF76 /* mm.png */,
 				BCDF840B1C28F33C00ACD1FC /* MoreSetting@2x.png */,
 				BCDF840C1C28F33C00ACD1FC /* MoreSetting@3x.png */,
 				BCDF83F81C27DAD200ACD1FC /* ff_IconAdd@2x.png */,
@@ -762,6 +783,7 @@
 				BC470F6D1C195ADC004DA99E /* LaunchImage.png in Resources */,
 				BC470F541C195141004DA99E /* tabbar_meHL@3x.png in Resources */,
 				BC470F6C1C195ADC004DA99E /* LaunchImage-Portrait@2x~ipad.png in Resources */,
+				BC757B091C2CE60400D4BF76 /* mm.png in Resources */,
 				BCDF840E1C28F33C00ACD1FC /* MoreSetting@3x.png in Resources */,
 				BC470E9E1C17B9D5004DA99E /* Main.storyboard in Resources */,
 				BCDF83EC1C27B1FB00ACD1FC /* location_detail@2x.png in Resources */,
@@ -786,6 +808,7 @@
 				BC470F711C195B9B004DA99E /* group_remind_bg@2x.png in Resources */,
 				BCDF83F61C27D79400ACD1FC /* addgroup@2x.png in Resources */,
 				BC39696D1C225C6000347994 /* HR_login_textBg.png in Resources */,
+				BC757B0E1C2CED8000D4BF76 /* GCRegisterController.xib in Resources */,
 				BCDF83F71C27D79400ACD1FC /* addgroup@3x.png in Resources */,
 				BCDF83EB1C27B1FB00ACD1FC /* game_level4@2x.png in Resources */,
 				BCDF83D51C27A8BD00ACD1FC /* GCDiscoverCell.xib in Resources */,
@@ -906,11 +929,14 @@
 				BC470F7C1C19649F004DA99E /* GCQrCodeController.m in Sources */,
 				BC470ED81C17D03D004DA99E /* GCDiscoverController.m in Sources */,
 				BCDF84121C29006500ACD1FC /* GCChatController.m in Sources */,
+				BC757B051C2CE01C00D4BF76 /* GCGuideController.m in Sources */,
 				BC470E951C17B9D4004DA99E /* main.m in Sources */,
 				BCDF83FD1C27DD8400ACD1FC /* FriendCell.m in Sources */,
 				BCDF83D01C27A64B00ACD1FC /* Friend.m in Sources */,
 				BC470ECF1C17CF95004DA99E /* GCTabBarController.m in Sources */,
+				BC757B0D1C2CED8000D4BF76 /* GCRegisterController.m in Sources */,
 				BC470ED51C17CFF4004DA99E /* GCBaseController.m in Sources */,
+				BCE133971C2A4F30000D0E7C /* GCSettingController.m in Sources */,
 				BC470EDE1C17D071004DA99E /* GCProfileController.m in Sources */,
 				BC470F2D1C194E5B004DA99E /* GCSlidingMenuController.m in Sources */,
 				BCDF84081C28284000ACD1FC /* GCConversionCell.m in Sources */,

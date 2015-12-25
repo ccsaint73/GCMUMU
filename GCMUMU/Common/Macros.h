@@ -12,4 +12,6 @@
 #define SCREENW [UIScreen mainScreen].bounds.size.width
 #define SCREENH [UIScreen mainScreen].bounds.size.height
 
+#define UMAppKey @"567a071167e58ef4e0002dfb"
+
 #endif
