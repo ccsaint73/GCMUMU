@@ -12,7 +12,10 @@
 #import "GCChatController.h"
 #import "EaseMob.h"
 
-@interface GCSessionController () <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate>
+@interface GCSessionController () <UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate, UISearchResultsUpdating, UISearchBarDelegate>
+
+// 搜索控制器
+@property (nonatomic, strong) UISearchController *searchController;
 
 @property (nonatomic, strong) NSArray *conversations;
 @property (nonatomic, strong) UISearchBar *searchBar;
@@ -34,10 +37,20 @@
 - (void)setupUI
 {
     // 设置search的代理
-    self.searchBar.delegate = self;
+    // 创建搜索控制器
+    self.searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
+    self.searchController.searchBar.frame = CGRectMake(0, 0, self.view.frame.size.width, 44);
+    // 设置搜索框颜色
+    self.searchController.searchBar.barTintColor = [UIColor colorWithRed:235/255.0 green:235/255.0 blue:235/255.0 alpha:1];
+    // 设置搜索回调
+    self.searchController.searchResultsUpdater = self;
+    self.searchController.dimsBackgroundDuringPresentation = NO;
+    self.searchController.searchBar.delegate = self;
     
+    //
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
+    self.tableView.tableHeaderView = self.searchController.searchBar;
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -67,6 +80,16 @@
     qrCode.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:qrCode animated:YES];
 }
+
+- (void)updateSearchResultsForSearchController:(UISearchController *)searchController
+{
+    // 获取要搜索的文字
+    NSString *searchString = self.searchController.searchBar.text;
+    
+    // 刷新数据
+    [self.tableView reloadData];
+}
+
 #pragma mark -- 代理方法 --
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -114,15 +137,6 @@
 }
 
 #pragma mark --
-- (UISearchBar *)searchBar
-{
-    if (!_searchBar) {
-        _searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 64, SCREENW, 44)];
-        [self.view addSubview:_searchBar];
-    }
-    
-    return _searchBar;
-}
 
 - (UITableView *)tableView
 {

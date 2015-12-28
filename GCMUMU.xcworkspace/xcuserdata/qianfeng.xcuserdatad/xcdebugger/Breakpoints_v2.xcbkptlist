@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GCMUMU/AppDelegate.m"
-            timestampString = "472703803.246725"
+            timestampString = "472957033.966093"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
             landmarkName = "-didReceiveBuddyRequest:message:"
             landmarkType = "5">
          </BreakpointContent>
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GCMUMU/MUMU/Main/Controller/GCChatController.m"
-            timestampString = "472467072.365526"
+            timestampString = "472832805.743701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "-setConversion:"
             landmarkType = "5">
          </BreakpointContent>
@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GCMUMU/MUMU/Main/Controller/GCChatController.m"
-            timestampString = "472465764.603176"
+            timestampString = "472832805.743701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "-sendTextMessage:"
             landmarkType = "5">
          </BreakpointContent>
@@ -201,14 +201,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GCMUMU/AppDelegate.m"
-            timestampString = "472704095.016914"
+            filePath = "GCMUMU/MUMU/Main/Controller/GCChatController.m"
+            timestampString = "472832805.743701"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "-application:didFinishLaunchingWithOptions:"
-            landmarkType = "5">
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "@implementation GCChatController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

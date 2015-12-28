@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C89E1EFD66B8BA656B29C16 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1FF309354FD26070B88806 /* libPods.a */; };
+		BC26B3371C3050F00054A1E0 /* libPushSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC26B3361C3050F00054A1E0 /* libPushSDK.a */; };
 		BC3969681C22547400347994 /* GCLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3969661C22547400347994 /* GCLoginController.m */; };
 		BC3969691C22547400347994 /* GCLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3969671C22547400347994 /* GCLoginController.xib */; };
 		BC39696B1C225BA600347994 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = BC39696A1C225BA600347994 /* login.png */; };
@@ -73,6 +74,9 @@
 		BC757B091C2CE60400D4BF76 /* mm.png in Resources */ = {isa = PBXBuildFile; fileRef = BC757B081C2CE60400D4BF76 /* mm.png */; };
 		BC757B0D1C2CED8000D4BF76 /* GCRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC757B0B1C2CED8000D4BF76 /* GCRegisterController.m */; };
 		BC757B0E1C2CED8000D4BF76 /* GCRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC757B0C1C2CED8000D4BF76 /* GCRegisterController.xib */; };
+		BCCE82791C2D999C0027BA63 /* GCChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCE82781C2D999C0027BA63 /* GCChatCell.m */; };
+		BCCE827C1C2D9B1F0027BA63 /* HR_feedback_me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCCE827A1C2D9B1F0027BA63 /* HR_feedback_me@2x.png */; };
+		BCCE827D1C2D9B1F0027BA63 /* HR_feedback_server@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCCE827B1C2D9B1F0027BA63 /* HR_feedback_server@2x.png */; };
 		BCDF83D01C27A64B00ACD1FC /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF83CF1C27A64B00ACD1FC /* Friend.m */; };
 		BCDF83D41C27A8BD00ACD1FC /* GCDiscoverCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDF83D21C27A8BD00ACD1FC /* GCDiscoverCell.m */; };
 		BCDF83D51C27A8BD00ACD1FC /* GCDiscoverCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDF83D31C27A8BD00ACD1FC /* GCDiscoverCell.xib */; };
@@ -119,6 +123,8 @@
 /* Begin PBXFileReference section */
 		3D1FF309354FD26070B88806 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B25C95ED5956A4ADF23681B3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BC26B3351C3050F00054A1E0 /* APService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APService.h; sourceTree = "<group>"; };
+		BC26B3361C3050F00054A1E0 /* libPushSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPushSDK.a; sourceTree = "<group>"; };
 		BC3969651C22547400347994 /* GCLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCLoginController.h; sourceTree = "<group>"; };
 		BC3969661C22547400347994 /* GCLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCLoginController.m; sourceTree = "<group>"; };
 		BC3969671C22547400347994 /* GCLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCLoginController.xib; sourceTree = "<group>"; };
@@ -210,6 +216,10 @@
 		BC757B0A1C2CED8000D4BF76 /* GCRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCRegisterController.h; sourceTree = "<group>"; };
 		BC757B0B1C2CED8000D4BF76 /* GCRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCRegisterController.m; sourceTree = "<group>"; };
 		BC757B0C1C2CED8000D4BF76 /* GCRegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCRegisterController.xib; sourceTree = "<group>"; };
+		BCCE82771C2D999C0027BA63 /* GCChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCChatCell.h; sourceTree = "<group>"; };
+		BCCE82781C2D999C0027BA63 /* GCChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCChatCell.m; sourceTree = "<group>"; };
+		BCCE827A1C2D9B1F0027BA63 /* HR_feedback_me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HR_feedback_me@2x.png"; sourceTree = "<group>"; };
+		BCCE827B1C2D9B1F0027BA63 /* HR_feedback_server@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HR_feedback_server@2x.png"; sourceTree = "<group>"; };
 		BCDF83CE1C27A64B00ACD1FC /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
 		BCDF83CF1C27A64B00ACD1FC /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
 		BCDF83D11C27A8BD00ACD1FC /* GCDiscoverCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDiscoverCell.h; sourceTree = "<group>"; };
@@ -258,6 +268,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC26B3371C3050F00054A1E0 /* libPushSDK.a in Frameworks */,
 				0C89E1EFD66B8BA656B29C16 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +298,15 @@
 				3D1FF309354FD26070B88806 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC26B3341C3050F00054A1E0 /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				BC26B3351C3050F00054A1E0 /* APService.h */,
+				BC26B3361C3050F00054A1E0 /* libPushSDK.a */,
+			);
+			path = JPush;
 			sourceTree = "<group>";
 		};
 		BC3969591C2253F500347994 /* Login */ = {
@@ -407,6 +427,7 @@
 		BC470EB91C17C8FD004DA99E /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				BC26B3341C3050F00054A1E0 /* JPush */,
 				BC470F2A1C194E5B004DA99E /* GCSlidingMenu */,
 				BC470EEF1C1807DA004DA99E /* ORProgressHUD */,
 			);
@@ -492,6 +513,8 @@
 				BCE1335A1C2939D5000D0E7C /* GCChatBottomView.h */,
 				BCE1335B1C2939D5000D0E7C /* GCChatBottomView.m */,
 				BCE1335D1C2939E6000D0E7C /* GCChatBottomView.xib */,
+				BCCE82771C2D999C0027BA63 /* GCChatCell.h */,
+				BCCE82781C2D999C0027BA63 /* GCChatCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -673,6 +696,8 @@
 		BCDF83D91C27B1B300ACD1FC /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				BCCE827A1C2D9B1F0027BA63 /* HR_feedback_me@2x.png */,
+				BCCE827B1C2D9B1F0027BA63 /* HR_feedback_server@2x.png */,
 				BC757B081C2CE60400D4BF76 /* mm.png */,
 				BCDF840B1C28F33C00ACD1FC /* MoreSetting@2x.png */,
 				BCDF840C1C28F33C00ACD1FC /* MoreSetting@3x.png */,
@@ -801,6 +826,7 @@
 				BC470F491C195141004DA99E /* tabbar_discover@2x.png in Resources */,
 				BC470EF31C1807DA004DA99E /* ORProgressHUD.bundle in Resources */,
 				BCDF83E61C27B1FB00ACD1FC /* food@2x.png in Resources */,
+				BCCE827C1C2D9B1F0027BA63 /* HR_feedback_me@2x.png in Resources */,
 				BC470F4E1C195141004DA99E /* tabbar_mainframe@3x.png in Resources */,
 				BC470F671C195ADC004DA99E /* LaunchImage-700-568h@2x.png in Resources */,
 				BC470F471C195141004DA99E /* tabbar_contactsHL@2x.png in Resources */,
@@ -843,6 +869,7 @@
 				BC470F661C195ADC004DA99E /* LaunchImage-568h@2x.png in Resources */,
 				BC3969711C2268CF00347994 /* HR_login_btnBg.png in Resources */,
 				BC470F511C195141004DA99E /* tabbar_me@2x.png in Resources */,
+				BCCE827D1C2D9B1F0027BA63 /* HR_feedback_server@2x.png in Resources */,
 				BCDF83E81C27B1FB00ACD1FC /* game_level1@2x.png in Resources */,
 				BC470F751C19625B004DA99E /* HR_scan_line.png in Resources */,
 				BC470F681C195ADC004DA99E /* LaunchImage-700-Portrait@2x~ipad.png in Resources */,
@@ -920,6 +947,7 @@
 				BC470EDB1C17D05D004DA99E /* GCSessionController.m in Sources */,
 				BCE1335C1C2939D5000D0E7C /* GCChatBottomView.m in Sources */,
 				BC3969681C22547400347994 /* GCLoginController.m in Sources */,
+				BCCE82791C2D999C0027BA63 /* GCChatCell.m in Sources */,
 				BCDF83D81C27AD3A00ACD1FC /* GCInfo.m in Sources */,
 				BC470E981C17B9D5004DA99E /* AppDelegate.m in Sources */,
 				BC470ED21C17CFE0004DA99E /* GCNavigationController.m in Sources */,
@@ -1083,6 +1111,10 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/GCMUMU/PrefixHeader.pch";
 				INFOPLIST_FILE = GCMUMU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GCMUMU/Lib/JPush",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1097,6 +1129,10 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/GCMUMU/PrefixHeader.pch";
 				INFOPLIST_FILE = GCMUMU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GCMUMU/Lib/JPush",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

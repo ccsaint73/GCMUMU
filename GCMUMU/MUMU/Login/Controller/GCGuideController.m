@@ -24,6 +24,7 @@
     [self setupUI];
 }
 
+// 设置UI
 - (void)setupUI
 {
     NSArray *array = @[@"mm", @"mm", @"mm"];
@@ -47,6 +48,7 @@
         }
     }
     
+    // 设置scrollview的属性
     self.scrollView.contentSize = CGSizeMake(array.count * SCREENW, 0);
     self.scrollView.pagingEnabled = YES;
 }

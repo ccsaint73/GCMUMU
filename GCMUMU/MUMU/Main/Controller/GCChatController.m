@@ -9,6 +9,7 @@
 #import "GCChatController.h"
 #import "GCChatBottomView.h"
 #import "Easemob.h"
+#import "GCChatCell.h"
 
 @interface GCChatController () <IChatManagerDelegate, UITableViewDelegate, UITableViewDataSource>
 
@@ -42,6 +43,7 @@
     
     view.messageDidSend = ^(NSString *message){
         [ws sendTextMessage:message];
+        [ws scrollToBottom];
     };
 
     [self.view addSubview:view];
@@ -94,12 +96,16 @@
     [UIView animateWithDuration:0.25f animations:^{
         self.tableView.frame = CGRectMake(0, 64, SCREENW, self.view.frame.size.height - frame.size.height - 49 - 64);
         self.replyView.frame = CGRectMake(0, CGRectGetMaxY(_tableView.frame), SCREENW, 49);
-        
-        if (_messages.count > 0) {
-            NSIndexPath *indexPath = [NSIndexPath indexPathForRow:_messages.count - 1 inSection:0];
-            [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionBottom animated:YES];
-        }
+        [self scrollToBottom];
     }];
+}
+
+- (void)scrollToBottom
+{
+    if (_messages.count > 0) {
+        NSIndexPath *indexPath = [NSIndexPath indexPathForRow:_messages.count - 1 inSection:0];
+        [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionBottom animated:YES];
+    }
 }
 
 - (void)didKeyboardHide:(NSNotification *)noti
@@ -128,28 +134,32 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *identifer = @"";
+    static NSString *identifer = @"GCChatCell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifer];
+    GCChatCell *cell = [tableView dequeueReusableCellWithIdentifier:identifer];
     
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifer];
+        cell = [[GCChatCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifer];
     }
     
     // 获取消息
     EMMessage *message = _messages[indexPath.row];
-    cell.textLabel.text = message.from;
-    
-    // 展示消息
-    EMTextMessageBody *body = [message.messageBodies lastObject];
-    cell.detailTextLabel.text = body.text;
+    cell.message = message;
     
     return cell;
 }
 
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self.view endEditing:YES];
+    // 获取消息
+    EMMessage *message = _messages[indexPath.row];
+    EMTextMessageBody *body = [message.messageBodies lastObject];
+
+    CGRect frame = [body.text boundingRectWithSize:CGSizeMake(SCREENW - 160, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:18]} context:nil];
+    
+    NSLog(@"%@", NSStringFromCGRect(frame));
+    
+    return frame.size.height + 70;
 }
 
 #pragma mark
@@ -157,6 +167,7 @@
 {
     if (!_tableView) {
         _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, SCREENW, SCREENH - 64 - 49) style:UITableViewStylePlain];
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         [self.view addSubview:_tableView];
     }
     return _tableView;

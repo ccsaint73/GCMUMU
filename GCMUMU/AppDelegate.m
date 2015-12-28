@@ -14,6 +14,7 @@
 #import "UMSocialSinaHandler.h"
 #import "UMSocial.h"
 #import "GCGuideController.h"
+#import "APService.h"
 
 @interface AppDelegate () <IChatManagerDelegate>
 
@@ -24,6 +25,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
     // 注册环信
     [[EaseMob sharedInstance] registerSDKWithAppKey:@"ori#mumu" apnsCertName:nil];
     [[EaseMob sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
@@ -32,20 +34,35 @@
     [[EaseMob sharedInstance].chatManager addDelegate:self delegateQueue:nil];
     
     // 注册极光推送
-    
+    [APService registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge |
+                                                   UIRemoteNotificationTypeSound |
+                                                   UIRemoteNotificationTypeAlert)];
+    // Required
+    [APService setupWithOption:launchOptions];
     // 注册高德地图
     
     // 注册友盟
     [UMSocialData setAppKey:UMAppKey];
+    
     // 开始新浪sso授权
     [UMSocialSinaHandler openSSOWithRedirectURL:nil];
     
+    // 主窗口处理逻辑
+    [self setupMain];
+    
+    return YES;
+}
+
+- (void)setupMain
+{
     // 创建窗口
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     BOOL notFirst = [[NSUserDefaults standardUserDefaults] boolForKey:@"notFirst"];
+    // BOOL isLogin = [[NSUserDefaults standardUserDefaults] boolForKey:@"notFirst"];
     
     if (notFirst) {
+
         // 创建登录控制器
         GCLoginController *login = [[GCLoginController alloc] initWithNibName:@"GCLoginController" bundle:nil];
         
@@ -64,8 +81,29 @@
     
     // 设置主窗口并显示
     [self.window makeKeyAndVisible];
+}
+
+// 苹果服务器给我们返回devicetoken的代理方法
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     
-    return YES;
+    // Required
+    // 将devicetoken传给极光服务器
+    [APService registerDeviceToken:deviceToken];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    
+    // Required
+    // 当应用在后台的时候，点击推送的通知调用该方法
+    [APService handleRemoteNotification:userInfo];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+    
+    
+    // IOS 7 Support Required
+    [APService handleRemoteNotification:userInfo];
+    completionHandler(UIBackgroundFetchResultNewData);
 }
 
 // App进入后台

@@ -30,6 +30,11 @@
 
 - (void)setupInit
 {
+    // 测试账号
+    _nameField.text = @"test1";
+    _pwdField.text = @"123";
+    
+    // 记住密码
     NSString *username = [[NSUserDefaults standardUserDefaults] objectForKey:@"username"];
     
     if (username) {
@@ -67,6 +72,7 @@
         [ORProgressHUD hide];
         
         if (!error && loginInfo) {
+            
             // 记住密码
             [[NSUserDefaults standardUserDefaults] setObject:_nameField.text forKey:@"username"];
             [[NSUserDefaults standardUserDefaults] setObject:_pwdField.text forKey:@"passwd"];
@@ -84,7 +90,9 @@
 // 注册
 - (IBAction)mmRegister:(id)sender {
     [self.view endEditing:YES];
+    //
     [ORProgressHUD show];
+    //
     [[EaseMob sharedInstance].chatManager asyncRegisterNewAccount:_nameField.text password:_pwdField.text withCompletion:^(NSString *username, NSString *password, EMError *error) {
         [ORProgressHUD hide];
         if (!error) {
